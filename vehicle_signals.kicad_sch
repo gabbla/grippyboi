@@ -2,8 +2,14 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "2449177c-b15e-4d1c-8232-438b95e6c6fa")
+	(uuid "f55b25d8-93de-483b-9328-85eb230c110c")
 	(paper "A4")
+	(title_block
+		(title "Vehicle Signals")
+		(rev "v0.1.0")
+		(company "github.com/gabbla")
+		(comment 1 "${PROJECTNAME}")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers hide)

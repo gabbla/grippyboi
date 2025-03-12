@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "9a518c1c-17bd-44af-8548-81355061b7f0")
 	(paper "A4")
+	(title_block
+		(title "USB-C")
+		(rev "v0.1.0")
+		(company "github.com/gabbla")
+		(comment 1 "${PROJECTNAME}")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names

@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "0ffb1e56-e59f-4998-95c9-f7245762767a")
 	(paper "A4")
+	(title_block
+		(title "WiFi - Nordic nRF7002")
+		(rev "v0.1.0")
+		(company "github.com/gabbla")
+		(comment 1 "${PROJECTNAME}")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)

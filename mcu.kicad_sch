@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "cc46e059-dd01-419c-8fc0-5cd653a5e575")
 	(paper "A3")
+	(title_block
+		(title "MCU")
+		(rev "v0.1.0")
+		(company "github.com/gabbla")
+		(comment 1 "${PROJECTNAME}")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names

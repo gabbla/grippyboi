@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "ed9a43c3-3c69-4b0b-a5b9-3fc8aee18ade")
 	(paper "A4")
+	(title_block
+		(title "WiFi and Bluetooth - Murata 1YN")
+		(rev "v0.1.0")
+		(company "github.com/gabbla")
+		(comment 1 "${PROJECTNAME}")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial_Small"
 			(pin_numbers hide)
