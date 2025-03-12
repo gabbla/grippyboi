@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS62A02DRLR
+D Switching Voltage Regulators 2.5-V to 5.5-V input, 2-A high-efficiency step-down converter in SOT-563 package
+K
+F https://www.ti.com/lit/ds/symlink/tps62a01.pdf
+$ENDCMP
+#
+#End Doc Library
