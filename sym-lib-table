@@ -1,9 +1,8 @@
 (sym_lib_table
   (version 7)
   (lib (name "LBEE5KL1YN-814")(type "KiCad")(uri "${KIPRJMOD}/lib/LBEE5KL1YN-814/LBEE5KL1YN-814.kicad_sym")(options "")(descr ""))
-  (lib (name "nrf7002_module")(type "KiCad")(uri "${KIPRJMOD}/lib/nrf7002_module.kicad_sym")(options "")(descr ""))
   (lib (name "TPS2553DBVT")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS2553DBVT/TPS2553DBVT.kicad_sym")(options "")(descr ""))
-  (lib (name "L9613B013TR")(type "KiCad")(uri "${KIPRJMOD}/lib/L9613/L9613B013TR.kicad_sym")(options "")(descr ""))
   (lib (name "TPS62A02DRLR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS62A02DRLR/TPS62A02DRLR.kicad_sym")(options "")(descr ""))
   (lib (name "TLIN1027DRQ1")(type "KiCad")(uri "${KIPRJMOD}/lib/TLIN1027DRQ1/TLIN1027DRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "nrf7002_module")(type "KiCad")(uri "${KIPRJMOD}/lib/PTR7002/nrf7002_module.kicad_sym")(options "")(descr ""))
 )

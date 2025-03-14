@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ptr7002")(type "KiCad")(uri "${KIPRJMOD}/lib/PTR7002/ptr7002.pretty")(options "")(descr ""))
+)
