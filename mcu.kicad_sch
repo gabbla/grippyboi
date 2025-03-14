@@ -8160,7 +8160,7 @@
 		)
 		(uuid "c4398f79-ec79-45ea-849f-d9899a81ee0f")
 	)
-	(text "32Mb RAM"
+	(text "64Mb RAM\nMax 109MHz @3v3\n"
 		(exclude_from_sim no)
 		(at 388.366 196.088 0)
 		(effects
@@ -12338,7 +12338,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "IS66WVS8M8FBLL-104NL"
+		(property "Value" "APS6404L-3SQR-SN"
 			(at 378.46 191.7699 0)
 			(effects
 				(font
