@@ -8103,6 +8103,18 @@
 		)
 		(uuid "3f60c268-0cc2-4f12-9810-06ba04c73c83")
 	)
+	(text "UART4"
+		(exclude_from_sim no)
+		(at 137.922 172.466 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "4207972d-30c7-4b73-90d7-d7715b9a46e8")
+	)
 	(text "FDCAN1"
 		(exclude_from_sim no)
 		(at 129.286 144.78 0)
