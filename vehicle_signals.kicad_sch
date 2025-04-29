@@ -434,48 +434,27 @@
 				)
 			)
 		)
-		(symbol "Isolator:LTV-827S"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "G3VM-61VY2:G3VM-61VY2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -3.81 5.08 0)
+				(at 7.62 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LTV-827S"
-				(at 0 -5.08 0)
+			(property "Value" "G3VM-61VY2"
+				(at 7.62 3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-				(at -20.32 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -484,7 +463,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN DC Optocoupler"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -493,7 +472,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SMDIP*W9.53mm*"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -502,10 +481,322 @@
 					(hide yes)
 				)
 			)
-			(symbol "LTV-827S_0_1"
+			(symbol "G3VM-61VY2_0_1"
+				(polyline
+					(pts
+						(xy 3.81 -3.175) (xy 5.08 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.636 -3.175) (xy 8.636 -4.699)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.636 -0.381) (xy 8.636 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 -3.048) (xy 9.144 -3.302)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.414 -2.54) (xy 11.43 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.049 -4.191) (xy 11.811 -4.191)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.049 -0.889) (xy 11.811 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -5.08) (xy 11.43 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 -4.572) (xy 9.144 -4.826) (xy 9.144 -4.826)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 -3.81) (xy 9.144 -4.064) (xy 9.144 -4.064)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 -1.778) (xy 9.144 -2.032) (xy 9.144 -2.032)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 -1.016) (xy 9.144 -1.27) (xy 9.144 -1.27)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 -0.254) (xy 9.144 -0.508) (xy 9.144 -0.508)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.271 -3.937) (xy 10.414 -3.937) (xy 10.414 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.271 -1.143) (xy 10.414 -1.143) (xy 10.414 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 4.445 0) (xy 4.445 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -3.175) (xy 3.81 -1.905) (xy 5.08 -1.905) (xy 4.445 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.271 -4.699) (xy 10.414 -4.699) (xy 10.414 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.271 -3.175) (xy 10.414 -3.175) (xy 10.414 -1.905) (xy 9.271 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.271 -0.381) (xy 10.414 -0.381) (xy 10.414 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.398 -3.937) (xy 9.906 -3.81) (xy 9.906 -4.064) (xy 9.398 -3.937)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.398 -1.143) (xy 9.906 -1.016) (xy 9.906 -1.27) (xy 9.398 -1.143)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -4.191) (xy 11.049 -3.429) (xy 11.811 -3.429) (xy 11.43 -4.191)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -0.889) (xy 11.049 -1.651) (xy 11.811 -1.651) (xy 11.43 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -3.048) (xy 6.985 -3.048) (xy 6.604 -3.175) (xy 6.604 -2.921) (xy 6.985 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -2.032) (xy 6.985 -2.032) (xy 6.604 -2.159) (xy 6.604 -1.905) (xy 6.985 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
+					(start 2.54 1.27)
+					(end 12.7 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -514,22 +805,9 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.175 -0.635) (xy -1.905 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0.635) (xy 4.445 2.54)
-					)
+				(circle
+					(center 10.414 -3.175)
+					(radius 0.127)
 					(stroke
 						(width 0)
 						(type default)
@@ -538,22 +816,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 2.54 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 5.08 -2.54)
-					)
+				(circle
+					(center 10.414 -2.54)
+					(radius 0.127)
 					(stroke
 						(width 0)
 						(type default)
@@ -562,10 +827,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 4.445 2.54) (xy 5.08 2.54)
-					)
+				(circle
+					(center 10.414 -1.905)
+					(radius 0.127)
 					(stroke
 						(width 0)
 						(type default)
@@ -574,10 +838,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
-					)
+				(circle
+					(center 11.43 -5.08)
+					(radius 0.127)
 					(stroke
 						(width 0)
 						(type default)
@@ -586,22 +849,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
-					)
+				(circle
+					(center 11.43 -2.54)
+					(radius 0.127)
 					(stroke
 						(width 0)
 						(type default)
@@ -610,58 +860,21 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
-					)
+				(circle
+					(center 11.43 0)
+					(radius 0.127)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
-			(symbol "LTV-827S_1_1"
+			(symbol "G3VM-61VY2_1_1"
 				(pin passive line
-					(at -7.62 2.54 0)
+					(at 0 0 0)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -679,7 +892,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -2.54 0)
+					(at 0 -5.08 0)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -697,45 +910,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LTV-827S_2_1"
-				(pin passive line
-					(at -7.62 2.54 0)
+					(at 15.24 -5.08 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -753,7 +928,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -2.54 0)
+					(at 15.24 0 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -763,42 +938,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3049,42 +3188,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:LTV-827S")
-		(at 218.44 218.44 0)
-		(unit 2)
+		(lib_id "G3VM-61VY2:G3VM-61VY2")
+		(at 210.82 170.18 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1aa43bf8-1e59-4ec2-9137-10376685522f")
-		(property "Reference" "U13"
-			(at 218.44 209.55 0)
+		(uuid "09bfab05-3350-43f5-8847-16940e935f8a")
+		(property "Reference" "U17"
+			(at 218.44 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LTV-827S"
-			(at 218.44 212.09 0)
+		(property "Value" "G3VM-61VY2"
+			(at 218.44 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
-			(at 218.44 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 198.12 204.47 0)
+		(property "Footprint" ""
+			(at 210.82 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,8 +3222,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
-			(at 218.44 218.44 0)
+		(property "Datasheet" ""
+			(at 210.82 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,35 +3231,32 @@
 				(hide yes)
 			)
 		)
-		(pin "8"
-			(uuid "cb352203-66fa-454a-8d53-c5f466468a88")
-		)
-		(pin "6"
-			(uuid "bd1d11df-8e80-410e-a427-ba863e863218")
-		)
-		(pin "5"
-			(uuid "d1ec800d-ec41-4d0c-933d-c09f98b1ccfb")
-		)
-		(pin "7"
-			(uuid "c5c81965-2901-4289-86e7-0e378df60586")
-		)
-		(pin "4"
-			(uuid "cef727e1-61d0-4dd8-b5a7-f0429f9d7716")
+		(property "Description" ""
+			(at 210.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "3"
-			(uuid "d77ce543-9ac7-4e69-81bb-bcbea7a034f9")
+			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb96")
 		)
-		(pin "1"
-			(uuid "c169ac2d-2691-49f2-93dc-04cec22255bd")
+		(pin "4"
+			(uuid "334eaa5f-44e6-441d-8846-9b772f18674b")
 		)
 		(pin "2"
-			(uuid "65a240a1-d0d7-424a-9a6f-a4a0ec682cc4")
+			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b20")
+		)
+		(pin "1"
+			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e863237e")
 		)
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "U13")
-					(unit 2)
+					(reference "U17")
+					(unit 1)
 				)
 			)
 		)
@@ -3267,6 +3394,80 @@
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "G3VM-61VY2:G3VM-61VY2")
+		(at 67.31 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23ac33b0-4979-43cf-bec6-25401674360e")
+		(property "Reference" "U15"
+			(at 74.93 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G3VM-61VY2"
+			(at 74.93 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb96")
+		)
+		(pin "4"
+			(uuid "334eaa5f-44e6-441d-8846-9b772f18674b")
+		)
+		(pin "2"
+			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b20")
+		)
+		(pin "1"
+			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e863237e")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -3603,6 +3804,80 @@
 		)
 	)
 	(symbol
+		(lib_id "G3VM-61VY2:G3VM-61VY2")
+		(at 210.82 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35b7efc5-c8f5-46fd-87b5-1eaf7b5b72cd")
+		(property "Reference" "U16"
+			(at 218.44 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G3VM-61VY2"
+			(at 218.44 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb96")
+		)
+		(pin "4"
+			(uuid "334eaa5f-44e6-441d-8846-9b772f18674b")
+		)
+		(pin "2"
+			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b20")
+		)
+		(pin "1"
+			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e863237e")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 63.5 224.79 0)
 		(unit 1)
@@ -3797,6 +4072,80 @@
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
 					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "G3VM-61VY2:G3VM-61VY2")
+		(at 67.31 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "422a7487-7b5d-46ce-b6cc-5c6897f1d57b")
+		(property "Reference" "U10"
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G3VM-61VY2"
+			(at 74.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb96")
+		)
+		(pin "4"
+			(uuid "334eaa5f-44e6-441d-8846-9b772f18674b")
+		)
+		(pin "2"
+			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b20")
+		)
+		(pin "1"
+			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e863237e")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -4167,6 +4516,154 @@
 		)
 	)
 	(symbol
+		(lib_id "G3VM-61VY2:G3VM-61VY2")
+		(at 67.31 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "668da972-c710-49f4-907f-2b0e4433d804")
+		(property "Reference" "U11"
+			(at 74.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G3VM-61VY2"
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb96")
+		)
+		(pin "4"
+			(uuid "334eaa5f-44e6-441d-8846-9b772f18674b")
+		)
+		(pin "2"
+			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b20")
+		)
+		(pin "1"
+			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e863237e")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "G3VM-61VY2:G3VM-61VY2")
+		(at 210.82 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69da3777-91d3-4797-b5f9-3b9fa210121e")
+		(property "Reference" "U13"
+			(at 218.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G3VM-61VY2"
+			(at 218.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb96")
+		)
+		(pin "4"
+			(uuid "334eaa5f-44e6-441d-8846-9b772f18674b")
+		)
+		(pin "2"
+			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b20")
+		)
+		(pin "1"
+			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e863237e")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 229.87 106.68 180)
 		(unit 1)
@@ -4373,178 +4870,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:LTV-827S")
-		(at 74.93 118.11 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82dd7fd6-7f5c-4891-a83f-8ca8512f647f")
-		(property "Reference" "U10"
-			(at 74.93 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-827S"
-			(at 74.93 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
-			(at 74.93 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 54.61 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
-			(at 74.93 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "cb352203-66fa-454a-8d53-c5f466468a89")
-		)
-		(pin "6"
-			(uuid "360696c1-19e0-450e-a3c9-ddcdf7d19f24")
-		)
-		(pin "5"
-			(uuid "d558e0eb-97cf-4971-96b4-e155ed65bb15")
-		)
-		(pin "7"
-			(uuid "c5c81965-2901-4289-86e7-0e378df60587")
-		)
-		(pin "4"
-			(uuid "3d7e89b9-5084-49db-919c-82765e2d288c")
-		)
-		(pin "3"
-			(uuid "8c21b0ca-4aa5-4bd0-8366-d95a568917e1")
-		)
-		(pin "1"
-			(uuid "c169ac2d-2691-49f2-93dc-04cec22255be")
-		)
-		(pin "2"
-			(uuid "65a240a1-d0d7-424a-9a6f-a4a0ec682cc5")
-		)
-		(instances
-			(project "haldex_controller"
-				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "U10")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-827S")
-		(at 74.93 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83510d35-9a56-48e1-a7ad-b4dafd44b3fc")
-		(property "Reference" "U11"
-			(at 74.93 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-827S"
-			(at 74.93 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
-			(at 74.93 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 54.61 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
-			(at 74.93 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "933cf6f4-d503-40b9-a4bf-45b3b9566669")
-		)
-		(pin "6"
-			(uuid "00399709-7104-4904-9ed9-79bb1a13d769")
-		)
-		(pin "5"
-			(uuid "55ce45ea-3442-4bf4-bd2d-86017bc79cd1")
-		)
-		(pin "7"
-			(uuid "5d8a3a3b-e04c-4f2e-ab9a-5d07adba068b")
-		)
-		(pin "4"
-			(uuid "90258ba0-9eb7-435b-b1ea-49cd4561ffa1")
-		)
-		(pin "3"
-			(uuid "ef0be89b-d49c-4283-a096-bd1aaba85075")
-		)
-		(pin "1"
-			(uuid "bef47379-1a49-44b9-9663-1c72894fc466")
-		)
-		(pin "2"
-			(uuid "8cf1cfcc-3b29-45db-b6d6-21243fb68470")
-		)
-		(instances
-			(project "haldex_controller"
-				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 229.87 179.07 0)
 		(unit 1)
@@ -4737,6 +5062,80 @@
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
 					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "G3VM-61VY2:G3VM-61VY2")
+		(at 210.82 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e8180e8-65bd-4de0-a6a7-804b82513532")
+		(property "Reference" "U12"
+			(at 218.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G3VM-61VY2"
+			(at 218.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb96")
+		)
+		(pin "4"
+			(uuid "334eaa5f-44e6-441d-8846-9b772f18674b")
+		)
+		(pin "2"
+			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b20")
+		)
+		(pin "1"
+			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e863237e")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -4942,178 +5341,6 @@
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
 					(reference "#PWR0137")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-827S")
-		(at 218.44 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a264b011-b698-4f53-84ee-09086d56f03e")
-		(property "Reference" "U13"
-			(at 218.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-827S"
-			(at 218.44 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
-			(at 218.44 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 198.12 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
-			(at 218.44 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "fff46ff1-37fd-4f6a-8697-edda748ac5b2")
-		)
-		(pin "6"
-			(uuid "00399709-7104-4904-9ed9-79bb1a13d768")
-		)
-		(pin "5"
-			(uuid "55ce45ea-3442-4bf4-bd2d-86017bc79cd0")
-		)
-		(pin "7"
-			(uuid "344d8c60-b864-42d7-bee3-82b94403517b")
-		)
-		(pin "4"
-			(uuid "90258ba0-9eb7-435b-b1ea-49cd4561ffa0")
-		)
-		(pin "3"
-			(uuid "ef0be89b-d49c-4283-a096-bd1aaba85074")
-		)
-		(pin "1"
-			(uuid "a4153f9d-aa48-4dff-a542-2c3a73e76c45")
-		)
-		(pin "2"
-			(uuid "eb2c07fa-03a8-4fe1-ba4f-9a2192053436")
-		)
-		(instances
-			(project "haldex_controller"
-				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-827S")
-		(at 74.93 218.44 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9e25f89-5bff-4190-bcf2-54979029e2b8")
-		(property "Reference" "U11"
-			(at 74.93 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-827S"
-			(at 74.93 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
-			(at 74.93 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 54.61 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
-			(at 74.93 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "cb352203-66fa-454a-8d53-c5f466468a8a")
-		)
-		(pin "6"
-			(uuid "24f48ee7-9c2b-49fa-8d8e-8725db1012e9")
-		)
-		(pin "5"
-			(uuid "7dd3fb86-bbf0-437d-8d23-e87b261f67af")
-		)
-		(pin "7"
-			(uuid "c5c81965-2901-4289-86e7-0e378df60588")
-		)
-		(pin "4"
-			(uuid "43639493-12e0-40a8-a17d-f1b1fa8434da")
-		)
-		(pin "3"
-			(uuid "6e087814-fc02-4cfa-9af3-e6a62a3b8a4d")
-		)
-		(pin "1"
-			(uuid "c169ac2d-2691-49f2-93dc-04cec22255bf")
-		)
-		(pin "2"
-			(uuid "65a240a1-d0d7-424a-9a6f-a4a0ec682cc6")
-		)
-		(instances
-			(project "haldex_controller"
-				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "U11")
-					(unit 2)
 				)
 			)
 		)
@@ -6259,92 +6486,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:LTV-827S")
-		(at 218.44 118.11 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcfa16b4-a6cb-47dd-8b40-e74afed383ef")
-		(property "Reference" "U12"
-			(at 218.44 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-827S"
-			(at 218.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
-			(at 218.44 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 198.12 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
-			(at 218.44 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "cb352203-66fa-454a-8d53-c5f466468a8b")
-		)
-		(pin "6"
-			(uuid "3a53b761-1e12-4489-ab89-f09f469492ae")
-		)
-		(pin "5"
-			(uuid "b10962b0-f7d6-4d14-9b34-0c96595badec")
-		)
-		(pin "7"
-			(uuid "c5c81965-2901-4289-86e7-0e378df60589")
-		)
-		(pin "4"
-			(uuid "ca7b6ef9-22d8-462e-9c27-5dc8717a57cc")
-		)
-		(pin "3"
-			(uuid "3b5213be-22a1-4fee-b44f-612e4598f4e7")
-		)
-		(pin "1"
-			(uuid "c169ac2d-2691-49f2-93dc-04cec22255c0")
-		)
-		(pin "2"
-			(uuid "65a240a1-d0d7-424a-9a6f-a4a0ec682cc7")
-		)
-		(instances
-			(project "haldex_controller"
-				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "U12")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 86.36 207.01 180)
 		(unit 1)
@@ -6701,42 +6842,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:LTV-827S")
-		(at 74.93 72.39 0)
+		(lib_id "G3VM-61VY2:G3VM-61VY2")
+		(at 67.31 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eee426ed-a5cf-4232-957b-91df1e71795b")
-		(property "Reference" "U10"
-			(at 74.93 63.5 0)
+		(uuid "fe8ee1e9-5189-4503-be6b-a57f7be30004")
+		(property "Reference" "U14"
+			(at 74.93 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LTV-827S"
-			(at 74.93 66.04 0)
+		(property "Value" "G3VM-61VY2"
+			(at 74.93 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
-			(at 74.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 54.61 58.42 0)
+		(property "Footprint" ""
+			(at 67.31 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6744,8 +6876,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
-			(at 74.93 72.39 0)
+		(property "Datasheet" ""
+			(at 67.31 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,120 +6885,31 @@
 				(hide yes)
 			)
 		)
-		(pin "8"
-			(uuid "06f91767-845b-4e49-a88a-665a10880a36")
-		)
-		(pin "6"
-			(uuid "00399709-7104-4904-9ed9-79bb1a13d76a")
-		)
-		(pin "5"
-			(uuid "55ce45ea-3442-4bf4-bd2d-86017bc79cd2")
-		)
-		(pin "7"
-			(uuid "3ed5ce7e-b9ca-44ff-ab3e-276c5b5d8164")
-		)
-		(pin "4"
-			(uuid "90258ba0-9eb7-435b-b1ea-49cd4561ffa2")
+		(property "Description" ""
+			(at 67.31 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "3"
-			(uuid "ef0be89b-d49c-4283-a096-bd1aaba85076")
+			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb96")
 		)
-		(pin "1"
-			(uuid "2712c803-64c1-477b-887e-5d8a1a3e143e")
+		(pin "4"
+			(uuid "334eaa5f-44e6-441d-8846-9b772f18674b")
 		)
 		(pin "2"
-			(uuid "8ef812c8-1396-4262-8fbe-a3097a9040ca")
+			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b20")
+		)
+		(pin "1"
+			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e863237e")
 		)
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-827S")
-		(at 218.44 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdaca9ba-d236-416d-9a66-37a8007c663f")
-		(property "Reference" "U12"
-			(at 218.44 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-827S"
-			(at 218.44 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
-			(at 218.44 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 198.12 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
-			(at 218.44 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "63740597-604b-4960-a18f-d899e1080bfb")
-		)
-		(pin "6"
-			(uuid "00399709-7104-4904-9ed9-79bb1a13d76b")
-		)
-		(pin "5"
-			(uuid "55ce45ea-3442-4bf4-bd2d-86017bc79cd3")
-		)
-		(pin "7"
-			(uuid "88418ef9-b16c-4cbd-9dc2-7a825247fd67")
-		)
-		(pin "4"
-			(uuid "90258ba0-9eb7-435b-b1ea-49cd4561ffa3")
-		)
-		(pin "3"
-			(uuid "ef0be89b-d49c-4283-a096-bd1aaba85077")
-		)
-		(pin "1"
-			(uuid "baaef9f8-8290-405c-a76e-140779aaa777")
-		)
-		(pin "2"
-			(uuid "73aa0c04-a605-4197-b810-674c52a28afb")
-		)
-		(instances
-			(project "haldex_controller"
-				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "U12")
+					(reference "U14")
 					(unit 1)
 				)
 			)
