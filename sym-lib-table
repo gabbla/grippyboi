@@ -5,4 +5,5 @@
   (lib (name "TPS62A02DRLR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS62A02DRLR/TPS62A02DRLR.kicad_sym")(options "")(descr ""))
   (lib (name "TLIN1027DRQ1")(type "KiCad")(uri "${KIPRJMOD}/lib/TLIN1027DRQ1/TLIN1027DRQ1.kicad_sym")(options "")(descr ""))
   (lib (name "nrf7002_module")(type "KiCad")(uri "${KIPRJMOD}/lib/PTR7002/nrf7002_module.kicad_sym")(options "")(descr ""))
+  (lib (name "ecu_connector")(type "KiCad")(uri "${KIPRJMOD}/lib/ECU_CONNECTOR/ecu_connector.kicad_sym")(options "")(descr ""))
 )

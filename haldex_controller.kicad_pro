@@ -395,16 +395,8 @@
       "Root"
     ],
     [
-      "1e557045-2681-4b97-9fec-aa284daf59cf",
-      "WiFi and Bluetooth"
-    ],
-    [
-      "ac628dfb-9786-4488-a934-d1527b457eba",
-      "WiFi nRF7002"
-    ],
-    [
-      "96bb4d88-5f7d-436c-ad57-e0256ce9a962",
-      "CAN PHYs"
+      "86767b70-18e0-4c81-b43a-e2960c44587b",
+      "Power"
     ],
     [
       "cddbfdcc-d322-4bb2-88f3-63a5530c650a",
@@ -415,16 +407,28 @@
       "USB"
     ],
     [
-      "439b2486-c84e-4eca-9430-b0865af9ee5e",
-      "Connectors"
+      "ac628dfb-9786-4488-a934-d1527b457eba",
+      "WiFi nRF7002"
     ],
     [
-      "86767b70-18e0-4c81-b43a-e2960c44587b",
-      "Power"
+      "1e557045-2681-4b97-9fec-aa284daf59cf",
+      "WiFi and Bluetooth"
+    ],
+    [
+      "96bb4d88-5f7d-436c-ad57-e0256ce9a962",
+      "CAN PHYs"
     ],
     [
       "a8228371-a1f4-4068-bbb3-ffa75e2073d0",
-      "Vehicle signals"
+      "Signals"
+    ],
+    [
+      "439b2486-c84e-4eca-9430-b0865af9ee5e",
+      "Connector"
+    ],
+    [
+      "018f22ab-cc84-4e9e-83d5-895e338f9b79",
+      "Stackup"
     ]
   ],
   "text_variables": {

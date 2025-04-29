@@ -134,11 +134,11 @@
 		)
 	)
 	(no_connect
-		(at 201.93 160.02)
+		(at 201.93 154.94)
 		(uuid "6bb53d75-726c-401c-b971-98612936b71d")
 	)
 	(no_connect
-		(at 201.93 162.56)
+		(at 201.93 157.48)
 		(uuid "b121d204-6d4a-40dc-a36c-7fee969f50ca")
 	)
 	(wire
@@ -163,7 +163,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 198.12) (xy 293.37 198.12)
+			(xy 248.92 201.93) (xy 293.37 201.93)
 		)
 		(stroke
 			(width 0)
@@ -193,7 +193,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 191.77) (xy 201.93 191.77)
+			(xy 162.56 184.15) (xy 201.93 184.15)
 		)
 		(stroke
 			(width 0)
@@ -203,7 +203,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 144.78) (xy 201.93 144.78)
+			(xy 162.56 139.7) (xy 201.93 139.7)
 		)
 		(stroke
 			(width 0)
@@ -223,7 +223,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 198.12) (xy 162.56 198.12)
+			(xy 201.93 201.93) (xy 162.56 201.93)
 		)
 		(stroke
 			(width 0)
@@ -240,6 +240,16 @@
 			(type default)
 		)
 		(uuid "2005cd03-8147-46ba-b019-7f464726f9ae")
+	)
+	(wire
+		(pts
+			(xy 162.56 189.23) (xy 201.93 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "205d6175-5ab2-4daf-b9dc-0405b05b36c6")
 	)
 	(wire
 		(pts
@@ -263,7 +273,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 154.94) (xy 201.93 154.94)
+			(xy 162.56 149.86) (xy 201.93 149.86)
 		)
 		(stroke
 			(width 0)
@@ -283,7 +293,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 186.69) (xy 293.37 186.69)
+			(xy 248.92 179.07) (xy 293.37 179.07)
 		)
 		(stroke
 			(width 0)
@@ -343,6 +353,26 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 194.31) (xy 201.93 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56040de1-2d3e-44be-9568-169b5335f962")
+	)
+	(wire
+		(pts
+			(xy 248.92 189.23) (xy 293.37 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d91d64-a078-4dd4-933b-e6273168a06e")
+	)
+	(wire
+		(pts
 			(xy 162.56 237.49) (xy 201.93 237.49)
 		)
 		(stroke
@@ -353,13 +383,33 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 152.4) (xy 201.93 152.4)
+			(xy 248.92 191.77) (xy 293.37 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e8553e-6e81-4e08-84f9-2fbb61dc6de8")
+	)
+	(wire
+		(pts
+			(xy 162.56 147.32) (xy 201.93 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "635fb308-bf09-4d54-b650-067d6cc5b52d")
+	)
+	(wire
+		(pts
+			(xy 162.56 191.77) (xy 201.93 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67741189-aff8-42c6-ac07-0541ad46e197")
 	)
 	(wire
 		(pts
@@ -393,7 +443,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 186.69) (xy 201.93 186.69)
+			(xy 162.56 179.07) (xy 201.93 179.07)
 		)
 		(stroke
 			(width 0)
@@ -403,7 +453,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 167.64) (xy 201.93 167.64)
+			(xy 162.56 162.56) (xy 201.93 162.56)
 		)
 		(stroke
 			(width 0)
@@ -413,7 +463,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 200.66) (xy 201.93 200.66)
+			(xy 162.56 204.47) (xy 201.93 204.47)
 		)
 		(stroke
 			(width 0)
@@ -423,7 +473,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 200.66) (xy 293.37 200.66)
+			(xy 248.92 204.47) (xy 293.37 204.47)
 		)
 		(stroke
 			(width 0)
@@ -463,13 +513,33 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 170.18) (xy 201.93 170.18)
+			(xy 248.92 194.31) (xy 293.37 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1a2a50-c9c6-4487-8523-01a0d8acb78a")
+	)
+	(wire
+		(pts
+			(xy 162.56 165.1) (xy 201.93 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "95f23002-7313-4a1e-b83c-b14691c9a169")
+	)
+	(wire
+		(pts
+			(xy 162.56 196.85) (xy 201.93 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4cedc4-8289-41a1-9f97-a80157669a2c")
 	)
 	(wire
 		(pts
@@ -513,13 +583,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 157.48) (xy 201.93 157.48)
+			(xy 162.56 152.4) (xy 201.93 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c0f7348a-51c3-47b4-a5d2-c3ae385810c6")
+	)
+	(wire
+		(pts
+			(xy 248.92 196.85) (xy 293.37 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c55beb-fedd-4ca0-89bd-cf114c10fc6c")
 	)
 	(wire
 		(pts
@@ -633,7 +713,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 149.86) (xy 201.93 149.86)
+			(xy 162.56 144.78) (xy 201.93 144.78)
 		)
 		(stroke
 			(width 0)
@@ -673,7 +753,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 189.23) (xy 201.93 189.23)
+			(xy 162.56 181.61) (xy 201.93 181.61)
 		)
 		(stroke
 			(width 0)
@@ -691,7 +771,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "4d9bc5fa-ca98-4915-a189-1eb4115ab701")
-		(property "Reference" "R49"
+		(property "Reference" "R2"
 			(at 189.484 104.14 90)
 			(effects
 				(font
@@ -743,7 +823,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f"
-					(reference "R49")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -759,7 +839,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "9753df98-2f99-4977-80b0-0bf099ab0cfc")
-		(property "Reference" "R48"
+		(property "Reference" "R1"
 			(at 182.626 96.52 90)
 			(effects
 				(font
@@ -811,8 +891,46 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f"
-					(reference "R48")
+					(reference "R1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 285.75 86.36)
+		(size 16.51 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "018f22ab-cc84-4e9e-83d5-895e338f9b79")
+		(property "Sheetname" "Stackup"
+			(at 285.75 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stackup.kicad_sch"
+			(at 285.75 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f"
+					(page "10")
 				)
 			)
 		)
@@ -870,7 +988,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f"
-					(page "6")
+					(page "4")
 				)
 			)
 		)
@@ -1118,14 +1236,14 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f"
-					(page "2")
+					(page "6")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 293.37 182.88)
-		(size 37.465 62.23)
+		(at 293.37 175.26)
+		(size 37.465 69.85)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1135,8 +1253,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "439b2486-c84e-4eca-9430-b0865af9ee5e")
-		(property "Sheetname" "Connectors"
-			(at 293.37 182.1684 0)
+		(property "Sheetname" "Connector"
+			(at 293.37 174.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1154,7 +1272,7 @@
 			)
 		)
 		(pin "HLDX_K_LINE" bidirectional
-			(at 293.37 186.69 180)
+			(at 293.37 179.07 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1204,7 +1322,7 @@
 			(uuid "d2b2b44f-af04-4832-80dd-1da480d34a68")
 		)
 		(pin "BODY_HANDBRAKE" output
-			(at 293.37 198.12 180)
+			(at 293.37 201.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,7 +1352,7 @@
 			(uuid "92d0aad0-efb2-4c83-b8f3-8c9851d30ff9")
 		)
 		(pin "BODY_BRAKE_LIGHT_SWITCH" output
-			(at 293.37 200.66 180)
+			(at 293.37 204.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,10 +1361,50 @@
 			)
 			(uuid "b3fbb093-0078-4b68-8841-c0552b4c5e8c")
 		)
+		(pin "USER_OUTPUT_2" input
+			(at 293.37 196.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8170acaa-1f92-4b56-aaa0-98fc24f74ade")
+		)
+		(pin "USER_INPUT_2" output
+			(at 293.37 191.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c18c3bbb-194c-454a-b1d5-cda72ea7bd52")
+		)
+		(pin "USER_INPUT_1" output
+			(at 293.37 189.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "79d17c98-e386-485b-a5a6-e9522ba107b3")
+		)
+		(pin "USER_OUTPUT_1" input
+			(at 293.37 194.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "774051f2-5d86-4595-9d78-dfecf33927ce")
+		)
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f"
-					(page "7")
+					(page "9")
 				)
 			)
 		)
@@ -1284,7 +1442,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f"
-					(page "8")
+					(page "2")
 				)
 			)
 		)
@@ -1422,14 +1580,14 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f"
-					(page "4")
+					(page "7")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 201.93 182.88)
-		(size 46.99 30.48)
+		(at 201.93 175.26)
+		(size 46.99 38.1)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1439,8 +1597,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a8228371-a1f4-4068-bbb3-ffa75e2073d0")
-		(property "Sheetname" "Vehicle signals"
-			(at 201.93 182.1684 0)
+		(property "Sheetname" "Signals"
+			(at 201.93 174.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1458,7 +1616,7 @@
 			)
 		)
 		(pin "K_LINE" bidirectional
-			(at 248.92 186.69 0)
+			(at 248.92 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,7 +1626,7 @@
 			(uuid "1b29e6e3-f36e-4d05-8726-879023f8233c")
 		)
 		(pin "LIN_TX" input
-			(at 201.93 189.23 180)
+			(at 201.93 181.61 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +1636,7 @@
 			(uuid "5fc56e74-7c7d-434a-850c-19f44792ece5")
 		)
 		(pin "LIN_EN" input
-			(at 201.93 191.77 180)
+			(at 201.93 184.15 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,7 +1646,7 @@
 			(uuid "3e4dacd8-2418-4142-8e10-bd8d0c267c78")
 		)
 		(pin "LIN_RX" output
-			(at 201.93 186.69 180)
+			(at 201.93 179.07 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1518,7 +1676,7 @@
 			(uuid "d56d4ccc-1de2-484a-9be8-71dcfab36aea")
 		)
 		(pin "BODY_HANDBRAKE" input
-			(at 248.92 198.12 0)
+			(at 248.92 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1686,7 @@
 			(uuid "2b5bae52-77cd-404f-9a79-d2980c8f624d")
 		)
 		(pin "BODY_BRAKES" input
-			(at 248.92 200.66 0)
+			(at 248.92 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +1696,7 @@
 			(uuid "d33b192c-e383-4651-b95a-069364d19ffa")
 		)
 		(pin "MCU_BODY_HANDBRAKE" output
-			(at 201.93 198.12 180)
+			(at 201.93 201.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1706,7 @@
 			(uuid "ec8b3730-2ad0-4dac-9167-d62396f99420")
 		)
 		(pin "MCU_BODY_BRAKES" output
-			(at 201.93 200.66 180)
+			(at 201.93 204.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1577,16 +1735,96 @@
 			)
 			(uuid "e7ce96f9-8c1f-49b9-9a45-025cfc5dd351")
 		)
+		(pin "USER_INPUT_1" input
+			(at 248.92 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "db1fac71-bb13-4b7f-bbfd-e531b5cd64be")
+		)
+		(pin "USER_INPUT_2" input
+			(at 248.92 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cbe1fbbf-882e-46eb-9e1f-35d6c29a3b3d")
+		)
+		(pin "MCU_USER_INPUT_1" output
+			(at 201.93 189.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "103efa6c-8ea8-41c3-9c24-156b01577f45")
+		)
+		(pin "MCU_USER_INPUT_2" output
+			(at 201.93 191.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5956acc7-7f00-43ba-b4b5-ae14fbba7edb")
+		)
+		(pin "USER_OUTPUT_1" output
+			(at 248.92 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6b653eba-c2c7-43ca-9d4c-5f9b158a198d")
+		)
+		(pin "MCU_USER_OUTPUT_1" input
+			(at 201.93 194.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "74a6888b-986d-4da6-9f9a-5b88c183f339")
+		)
+		(pin "MCU_USER_OUTPUT_2" input
+			(at 201.93 196.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d6dc1ad8-aa5a-4a9d-a2dc-d77730307af8")
+		)
+		(pin "USER_OUTPUT_2" output
+			(at 248.92 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3b07ee10-a428-4a05-87e2-e2d5707e8391")
+		)
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f"
-					(page "9")
+					(page "8")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 201.93 141.605)
+		(at 201.93 136.525)
 		(size 46.355 33.02)
 		(fields_autoplaced yes)
 		(stroke
@@ -1598,7 +1836,7 @@
 		)
 		(uuid "ac628dfb-9786-4488-a934-d1527b457eba")
 		(property "Sheetname" "WiFi nRF7002"
-			(at 201.93 140.8934 0)
+			(at 201.93 135.8134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,7 +1845,7 @@
 			)
 		)
 		(property "Sheetfile" "wifi_nrf7002.kicad_sch"
-			(at 201.93 175.2096 0)
+			(at 201.93 170.1296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1616,7 +1854,7 @@
 			)
 		)
 		(pin "BUCK_EN" input
-			(at 201.93 170.18 180)
+			(at 201.93 165.1 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1626,7 +1864,7 @@
 			(uuid "20858eb9-6e89-4308-b281-e0a38a75eca2")
 		)
 		(pin "VDDIO_EN" input
-			(at 201.93 167.64 180)
+			(at 201.93 162.56 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,7 +1874,7 @@
 			(uuid "e3fd44cc-38a4-43c4-8127-7a875af22e35")
 		)
 		(pin "QSPI_CLK" input
-			(at 201.93 152.4 180)
+			(at 201.93 147.32 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,7 +1884,7 @@
 			(uuid "65101f5a-3465-43c7-ab80-ec804d0c575d")
 		)
 		(pin "QSPI_DATA0" bidirectional
-			(at 201.93 154.94 180)
+			(at 201.93 149.86 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1656,7 +1894,7 @@
 			(uuid "738054de-2e54-4ca3-9c23-3d4be2e74c3c")
 		)
 		(pin "QSPI_DATA1" bidirectional
-			(at 201.93 157.48 180)
+			(at 201.93 152.4 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1904,7 @@
 			(uuid "965108c3-63d3-4758-aa8c-97ba9628c589")
 		)
 		(pin "QSPI_DATA2" bidirectional
-			(at 201.93 160.02 180)
+			(at 201.93 154.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,7 +1914,7 @@
 			(uuid "e8d992ba-5cce-43c0-970f-21beeb87eef9")
 		)
 		(pin "QSPI_DATA3" bidirectional
-			(at 201.93 162.56 180)
+			(at 201.93 157.48 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +1924,7 @@
 			(uuid "987aa939-57d0-4ac8-a4ae-006d5f4233e3")
 		)
 		(pin "QSPI_SS" input
-			(at 201.93 149.86 180)
+			(at 201.93 144.78 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1696,7 +1934,7 @@
 			(uuid "6cddb7b7-407b-48c0-9ef2-92a25f09ac88")
 		)
 		(pin "IRQ" output
-			(at 201.93 144.78 180)
+			(at 201.93 139.7 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,7 +1946,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f"
-					(page "3")
+					(page "5")
 				)
 			)
 		)
@@ -1824,7 +2062,7 @@
 			(uuid "d2f829d0-732b-423e-a034-ce5feb5715a3")
 		)
 		(pin "nRF7002_IRQ" input
-			(at 162.56 144.78 0)
+			(at 162.56 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +2072,7 @@
 			(uuid "726c476b-f1f6-4ad0-b6a3-f347a30c4a96")
 		)
 		(pin "nRF7002_VDDIO_EN" output
-			(at 162.56 167.64 0)
+			(at 162.56 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,7 +2172,7 @@
 			(uuid "560c5c37-7c97-4e81-976f-1b40bc9f8a71")
 		)
 		(pin "SPI1_~{CS}" output
-			(at 162.56 149.86 0)
+			(at 162.56 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,7 +2182,7 @@
 			(uuid "c18aa5c4-db13-43aa-bfd7-fd0e8de9b85d")
 		)
 		(pin "SPI1_MISO" input
-			(at 162.56 157.48 0)
+			(at 162.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,7 +2192,7 @@
 			(uuid "ba445803-8294-42a5-aa88-358477aec6d3")
 		)
 		(pin "SPI1_SCK" output
-			(at 162.56 152.4 0)
+			(at 162.56 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +2202,7 @@
 			(uuid "9621043f-4532-469a-b7ac-d9e860121847")
 		)
 		(pin "SPI1_MOSI" output
-			(at 162.56 154.94 0)
+			(at 162.56 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,7 +2212,7 @@
 			(uuid "99e1399c-0e0f-4dae-b58a-096a1e42fe63")
 		)
 		(pin "nRF7002_BUCK_EN" output
-			(at 162.56 170.18 0)
+			(at 162.56 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,7 +2342,7 @@
 			(uuid "d215d42b-1a3d-434b-9fcb-a404c1ce7886")
 		)
 		(pin "LIN_TX" output
-			(at 162.56 189.23 0)
+			(at 162.56 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +2352,7 @@
 			(uuid "735416e7-ef1b-40af-804a-7b23ec1387d5")
 		)
 		(pin "LIN_RX" input
-			(at 162.56 186.69 0)
+			(at 162.56 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2362,7 @@
 			(uuid "9394b457-1430-41cf-8f68-bb42c258ec55")
 		)
 		(pin "LIN_EN" output
-			(at 162.56 191.77 0)
+			(at 162.56 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2392,7 @@
 			(uuid "ac9ef826-9874-451f-ac8a-9741b42332a2")
 		)
 		(pin "MCU_BODY_HANDBRAKE" input
-			(at 162.56 198.12 0)
+			(at 162.56 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2164,7 +2402,7 @@
 			(uuid "1b9f6f57-710e-4db5-92d8-943b2263ce75")
 		)
 		(pin "MCU_BODY_BRAKES" input
-			(at 162.56 200.66 0)
+			(at 162.56 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,10 +2411,50 @@
 			)
 			(uuid "4dc31309-8a8e-4dac-8868-c2f1452e6833")
 		)
+		(pin "MCU_USER_INPUT_1" input
+			(at 162.56 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8d5f4ea0-b2be-4e23-9775-05618f0dd1cd")
+		)
+		(pin "MCU_USER_INPUT_2" input
+			(at 162.56 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "93915950-25e9-402f-99e3-4681715dd16d")
+		)
+		(pin "MCU_USER_OUTPUT_1" output
+			(at 162.56 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "081273bb-2d76-4858-83ad-024f7a532dfc")
+		)
+		(pin "MCU_USER_OUTPUT_2" output
+			(at 162.56 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8a0f26de-2ecd-48ca-b120-2725db139109")
+		)
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f"
-					(page "5")
+					(page "3")
 				)
 			)
 		)

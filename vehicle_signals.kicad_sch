@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "f55b25d8-93de-483b-9328-85eb230c110c")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "Vehicle Signals")
 		(rev "v0.1.0")
@@ -1422,58 +1422,238 @@
 				)
 			)
 		)
+		(symbol "power:GNDPWR"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
-		(at 80.01 160.02)
+		(at 326.39 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b1c0ae7-e102-43e0-91a3-8c11437f033e")
 	)
 	(junction
-		(at 134.62 139.7)
+		(at 381 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "479ca94f-e5f2-4803-ae68-731c91b4ccfe")
 	)
 	(junction
-		(at 87.63 49.53)
+		(at 86.36 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e577257-0ba8-4165-b1a9-2491d8c20c76")
 	)
 	(junction
-		(at 231.14 49.53)
+		(at 229.87 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d85fe7a-8cb6-444b-8a11-b135b8379190")
 	)
 	(junction
-		(at 87.63 95.25)
+		(at 86.36 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b1c33dc-7b13-4f51-b5e6-18812f48b5d2")
 	)
 	(junction
-		(at 118.11 139.7)
+		(at 86.36 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "770808ff-f224-4ba0-babf-650f2dc5021c")
+	)
+	(junction
+		(at 364.49 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdfb7cc5-e07d-470c-98c1-05724b12c15c")
 	)
 	(junction
-		(at 134.62 162.56)
+		(at 381 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f101d4b1-8be1-4e85-bb48-dbea854412d8")
 	)
 	(junction
-		(at 231.14 95.25)
+		(at 229.87 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f298d82f-bb53-4448-bbbc-3592da60097a")
 	)
+	(junction
+		(at 86.36 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f45a7598-a08b-4c22-840e-bde898936445")
+	)
 	(wire
 		(pts
-			(xy 118.11 139.7) (xy 134.62 139.7)
+			(xy 364.49 121.92) (xy 381 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1483,7 +1663,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 95.25) (xy 54.61 95.25)
+			(xy 201.93 170.18) (xy 210.82 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0062dcfe-0c51-44c8-b499-c59a4993c46f")
+	)
+	(wire
+		(pts
+			(xy 44.45 115.57) (xy 53.34 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1493,7 +1683,27 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 156.21) (xy 134.62 162.56)
+			(xy 44.45 215.9) (xy 53.34 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a703652-3152-493e-b169-242de2c768bd")
+	)
+	(wire
+		(pts
+			(xy 226.06 220.98) (xy 229.87 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c47dbc1-8d4b-42b0-a8b8-dea649dbf4ec")
+	)
+	(wire
+		(pts
+			(xy 381 138.43) (xy 381 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1503,7 +1713,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 100.33) (xy 231.14 100.33)
+			(xy 226.06 120.65) (xy 229.87 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1513,7 +1723,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 33.02) (xy 87.63 38.1)
+			(xy 86.36 53.34) (xy 86.36 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1523,7 +1733,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 171.45) (xy 134.62 175.26)
+			(xy 381 153.67) (xy 381 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1533,7 +1743,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 139.7) (xy 134.62 143.51)
+			(xy 381 121.92) (xy 381 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1543,7 +1753,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 162.56) (xy 86.36 162.56)
+			(xy 314.96 144.78) (xy 332.74 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1553,7 +1763,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 100.33) (xy 64.77 104.14)
+			(xy 63.5 120.65) (xy 63.5 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1563,7 +1773,17 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 54.61) (xy 231.14 54.61)
+			(xy 229.87 220.98) (xy 229.87 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fab5d5-9340-4d74-92f1-597de82c343a")
+	)
+	(wire
+		(pts
+			(xy 226.06 74.93) (xy 229.87 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1573,7 +1793,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 95.25) (xy 68.58 95.25)
+			(xy 58.42 115.57) (xy 67.31 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1583,7 +1803,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 54.61) (xy 208.28 58.42)
+			(xy 207.01 74.93) (xy 207.01 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1593,7 +1813,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 160.02) (xy 118.11 160.02)
+			(xy 360.68 142.24) (xy 364.49 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1603,7 +1823,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 49.53) (xy 198.12 49.53)
+			(xy 173.99 69.85) (xy 196.85 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1613,7 +1833,27 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 95.25) (xy 198.12 95.25)
+			(xy 82.55 175.26) (xy 86.36 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f383940-4635-483b-917f-643139240e56")
+	)
+	(wire
+		(pts
+			(xy 86.36 209.55) (xy 86.36 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408562e5-8bab-4528-a9f2-f3b40de31827")
+	)
+	(wire
+		(pts
+			(xy 173.99 115.57) (xy 196.85 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1623,7 +1863,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 88.9) (xy 231.14 95.25)
+			(xy 82.55 220.98) (xy 86.36 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c7b809-bbfb-41bb-a058-857aa44b4810")
+	)
+	(wire
+		(pts
+			(xy 229.87 109.22) (xy 229.87 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1633,7 +1883,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 54.61) (xy 87.63 54.61)
+			(xy 82.55 74.93) (xy 86.36 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1643,7 +1893,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 162.56) (xy 134.62 166.37)
+			(xy 58.42 215.9) (xy 67.31 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "464e46ed-7de1-4745-8eec-1d47678d290d")
+	)
+	(wire
+		(pts
+			(xy 381 144.78) (xy 381 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1653,7 +1913,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 54.61) (xy 231.14 58.42)
+			(xy 86.36 175.26) (xy 86.36 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c1dbe1-f11e-4af7-b98a-f11edf983ca5")
+	)
+	(wire
+		(pts
+			(xy 229.87 74.93) (xy 229.87 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1663,7 +1933,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 78.74) (xy 87.63 83.82)
+			(xy 86.36 99.06) (xy 86.36 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1673,7 +1943,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 160.02) (xy 86.36 160.02)
+			(xy 326.39 142.24) (xy 332.74 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1683,7 +1953,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 160.02) (xy 118.11 139.7)
+			(xy 86.36 170.18) (xy 82.55 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c349bd2-2795-40d5-a2aa-53e904244936")
+	)
+	(wire
+		(pts
+			(xy 364.49 142.24) (xy 364.49 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1693,7 +1973,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 54.61) (xy 208.28 54.61)
+			(xy 210.82 74.93) (xy 207.01 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1703,7 +1983,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 100.33) (xy 87.63 100.33)
+			(xy 82.55 120.65) (xy 86.36 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1713,7 +1993,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 167.64) (xy 86.36 167.64)
+			(xy 314.96 149.86) (xy 332.74 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1723,7 +2003,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 162.56) (xy 134.62 162.56)
+			(xy 360.68 144.78) (xy 381 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1733,7 +2013,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 100.33) (xy 64.77 100.33)
+			(xy 67.31 120.65) (xy 63.5 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1743,7 +2023,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 153.67) (xy 80.01 160.02)
+			(xy 173.99 215.9) (xy 196.85 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c21a359-b029-4cd1-a83d-b67e050f831d")
+	)
+	(wire
+		(pts
+			(xy 326.39 135.89) (xy 326.39 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1753,7 +2043,47 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 139.7) (xy 106.68 139.7)
+			(xy 86.36 215.9) (xy 82.55 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e533c06-a4f6-459c-8077-1657ba3973dc")
+	)
+	(wire
+		(pts
+			(xy 207.01 175.26) (xy 207.01 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659487d9-8221-428a-a8ad-40e5ea92bedf")
+	)
+	(wire
+		(pts
+			(xy 210.82 175.26) (xy 207.01 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65cdea49-ac2a-4f40-a4c1-ec869330af53")
+	)
+	(wire
+		(pts
+			(xy 210.82 220.98) (xy 207.01 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6984fcfc-4b3e-4bac-a49c-2f913e6ae3a8")
+	)
+	(wire
+		(pts
+			(xy 355.6 121.92) (xy 353.06 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1763,7 +2093,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 49.53) (xy 83.82 49.53)
+			(xy 86.36 69.85) (xy 82.55 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1773,7 +2103,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 49.53) (xy 54.61 49.53)
+			(xy 44.45 69.85) (xy 53.34 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1783,7 +2113,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 167.64) (xy 118.11 175.26)
+			(xy 364.49 149.86) (xy 364.49 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1793,7 +2123,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 95.25) (xy 83.82 95.25)
+			(xy 86.36 115.57) (xy 82.55 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1803,7 +2133,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 95.25) (xy 246.38 95.25)
+			(xy 63.5 175.26) (xy 63.5 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e665157-7376-426c-b455-ba29534f3981")
+	)
+	(wire
+		(pts
+			(xy 229.87 115.57) (xy 245.11 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1813,7 +2153,27 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 33.02) (xy 231.14 38.1)
+			(xy 207.01 220.98) (xy 207.01 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830da6c4-2afa-4729-aa91-86a3a418385f")
+	)
+	(wire
+		(pts
+			(xy 44.45 170.18) (xy 53.34 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833d1cae-f96b-4c5f-ae58-b61d74ea0855")
+	)
+	(wire
+		(pts
+			(xy 229.87 53.34) (xy 229.87 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1823,7 +2183,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 88.9) (xy 87.63 95.25)
+			(xy 86.36 109.22) (xy 86.36 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1833,7 +2193,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 167.64) (xy 118.11 167.64)
+			(xy 360.68 149.86) (xy 364.49 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1843,7 +2203,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 54.61) (xy 64.77 54.61)
+			(xy 67.31 220.98) (xy 63.5 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f34f312-f781-4829-8eb6-85b9faa24c50")
+	)
+	(wire
+		(pts
+			(xy 67.31 74.93) (xy 63.5 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1853,7 +2223,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 135.89) (xy 134.62 139.7)
+			(xy 226.06 170.18) (xy 245.11 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9264aabd-5e3e-4761-86dc-d2e1d6997df9")
+	)
+	(wire
+		(pts
+			(xy 381 118.11) (xy 381 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1863,7 +2243,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 100.33) (xy 87.63 104.14)
+			(xy 58.42 170.18) (xy 67.31 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa0c696-520f-4668-bc25-9b1b140d6bb5")
+	)
+	(wire
+		(pts
+			(xy 86.36 120.65) (xy 86.36 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1873,7 +2263,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 139.7) (xy 106.68 143.51)
+			(xy 353.06 121.92) (xy 353.06 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1883,7 +2273,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 54.61) (xy 64.77 58.42)
+			(xy 63.5 74.93) (xy 63.5 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1893,7 +2283,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 162.56) (xy 144.78 162.56)
+			(xy 86.36 163.83) (xy 86.36 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a864cd62-516d-4907-8b42-15c057010790")
+	)
+	(wire
+		(pts
+			(xy 381 144.78) (xy 391.16 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1903,7 +2303,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 100.33) (xy 231.14 104.14)
+			(xy 86.36 220.98) (xy 86.36 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d2aa14-bfe4-47c3-b734-d10956741bbd")
+	)
+	(wire
+		(pts
+			(xy 229.87 120.65) (xy 229.87 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1913,7 +2323,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 49.53) (xy 107.95 49.53)
+			(xy 86.36 69.85) (xy 106.68 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1923,7 +2333,17 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 49.53) (xy 68.58 49.53)
+			(xy 201.93 215.9) (xy 210.82 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae76187b-ffec-43ac-ac9d-f3967ae73143")
+	)
+	(wire
+		(pts
+			(xy 58.42 69.85) (xy 67.31 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1933,7 +2353,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 95.25) (xy 107.95 95.25)
+			(xy 226.06 175.26) (xy 229.87 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b398b871-87d7-4f81-b9da-2f2ac10e8ab3")
+	)
+	(wire
+		(pts
+			(xy 86.36 115.57) (xy 106.68 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1943,7 +2373,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 148.59) (xy 134.62 151.13)
+			(xy 381 130.81) (xy 381 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1953,7 +2383,37 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 49.53) (xy 212.09 49.53)
+			(xy 86.36 215.9) (xy 106.68 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb798f5-bf60-4f0d-9afb-8da42f468faf")
+	)
+	(wire
+		(pts
+			(xy 229.87 175.26) (xy 229.87 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd49a2cc-8250-402d-bdd1-6ad4cdf9b2f7")
+	)
+	(wire
+		(pts
+			(xy 67.31 175.26) (xy 63.5 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3035936-d3ad-4447-b83e-6055c716f624")
+	)
+	(wire
+		(pts
+			(xy 201.93 69.85) (xy 210.82 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1963,7 +2423,17 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 100.33) (xy 208.28 100.33)
+			(xy 86.36 170.18) (xy 106.68 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f895a8-44ca-4f98-9da2-5195fc893fa8")
+	)
+	(wire
+		(pts
+			(xy 210.82 120.65) (xy 207.01 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1973,7 +2443,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 95.25) (xy 227.33 95.25)
+			(xy 229.87 115.57) (xy 226.06 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1983,7 +2453,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 49.53) (xy 246.38 49.53)
+			(xy 229.87 69.85) (xy 245.11 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1993,7 +2463,17 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 95.25) (xy 212.09 95.25)
+			(xy 226.06 215.9) (xy 245.11 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da4c9a30-8148-4202-bfa2-9cc033abe58a")
+	)
+	(wire
+		(pts
+			(xy 201.93 115.57) (xy 210.82 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2003,7 +2483,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 100.33) (xy 208.28 104.14)
+			(xy 207.01 120.65) (xy 207.01 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2013,7 +2493,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 160.02) (xy 80.01 160.02)
+			(xy 314.96 142.24) (xy 326.39 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2023,7 +2503,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 139.7) (xy 118.11 139.7)
+			(xy 63.5 220.98) (xy 63.5 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5cd0d93-0950-4878-8166-5543c63d3be3")
+	)
+	(wire
+		(pts
+			(xy 360.68 121.92) (xy 364.49 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2033,7 +2523,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 43.18) (xy 231.14 49.53)
+			(xy 173.99 170.18) (xy 196.85 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8a1df4-1235-46e3-9cfb-5a60a39e1363")
+	)
+	(wire
+		(pts
+			(xy 229.87 63.5) (xy 229.87 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2043,7 +2543,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 43.18) (xy 87.63 49.53)
+			(xy 86.36 63.5) (xy 86.36 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2053,7 +2553,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 78.74) (xy 231.14 83.82)
+			(xy 229.87 99.06) (xy 229.87 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2063,7 +2563,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 144.78) (xy 80.01 148.59)
+			(xy 86.36 153.67) (xy 86.36 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f928fcf1-7c0b-40c2-b310-8c3b647a22ee")
+	)
+	(wire
+		(pts
+			(xy 326.39 127) (xy 326.39 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2073,7 +2583,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 49.53) (xy 227.33 49.53)
+			(xy 86.36 199.39) (xy 86.36 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc129855-c26f-4e24-8a0a-243e1553b97f")
+	)
+	(wire
+		(pts
+			(xy 229.87 69.85) (xy 226.06 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2083,7 +2603,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 54.61) (xy 87.63 58.42)
+			(xy 86.36 74.93) (xy 86.36 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2093,7 +2613,7 @@
 	)
 	(text "From MCU to Haldex"
 		(exclude_from_sim no)
-		(at 218.948 20.066 0)
+		(at 217.678 40.386 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2101,9 +2621,41 @@
 		)
 		(uuid "06bf7516-0b16-42f1-84a2-a74a3f7cd69f")
 	)
+	(text "From user to MCU"
+		(exclude_from_sim no)
+		(at 74.93 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "43c75667-d81b-4b8e-a05c-e137761bb704")
+	)
+	(text "From MCU to user\n"
+		(exclude_from_sim no)
+		(at 217.678 140.716 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81f1ffe3-bc7c-4ed7-82f6-ca2a124ee88d")
+	)
+	(text "User output open-drain\nmax 50mA\n\nAny protection?"
+		(exclude_from_sim no)
+		(at 250.698 196.088 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "833a9d64-29e0-495e-a5e6-2de3c413cc19")
+	)
 	(text "From body to MCU"
 		(exclude_from_sim no)
-		(at 76.2 20.574 0)
+		(at 74.93 40.894 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2113,7 +2665,7 @@
 	)
 	(text "RX: TLIN1027 Output (OD)\nTX: TLIN1027 Input"
 		(exclude_from_sim no)
-		(at 55.626 153.162 0)
+		(at 302.006 135.382 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2121,9 +2673,33 @@
 		)
 		(uuid "d9e0ebc6-1b54-4915-a15d-c9ebbf99979f")
 	)
+	(hierarchical_label "MCU_USER_OUTPUT_2"
+		(shape input)
+		(at 173.99 215.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "168719c8-c8b7-49d0-bcea-c71a9e24063e")
+	)
+	(hierarchical_label "MCU_USER_INPUT_1"
+		(shape output)
+		(at 106.68 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a6831c1-9bab-4f3e-913a-c432f2c6ea6d")
+	)
 	(hierarchical_label "MCU_BODY_BRAKES"
 		(shape output)
-		(at 107.95 95.25 0)
+		(at 106.68 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2135,7 +2711,7 @@
 	)
 	(hierarchical_label "LIN_EN"
 		(shape input)
-		(at 68.58 167.64 180)
+		(at 314.96 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2145,9 +2721,21 @@
 		)
 		(uuid "1fb2ac2c-57b2-438c-adee-62326958ec46")
 	)
+	(hierarchical_label "USER_OUTPUT_1"
+		(shape output)
+		(at 245.11 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "246afba9-7bb2-420b-a688-f61558ea32a2")
+	)
 	(hierarchical_label "MCU_HLDX_HANDBRAKE"
 		(shape input)
-		(at 175.26 49.53 180)
+		(at 173.99 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2159,7 +2747,7 @@
 	)
 	(hierarchical_label "K_LINE"
 		(shape bidirectional)
-		(at 144.78 162.56 0)
+		(at 391.16 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2169,9 +2757,33 @@
 		)
 		(uuid "2c8fe9bb-3c51-4c42-a7e0-e9da833f0be0")
 	)
+	(hierarchical_label "MCU_USER_OUTPUT_1"
+		(shape input)
+		(at 173.99 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c9c8fd4-8599-43ba-bd7b-7b28bd9536d0")
+	)
+	(hierarchical_label "USER_INPUT_1"
+		(shape input)
+		(at 44.45 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d804f48-ecac-40d7-8525-f154b881fbe4")
+	)
 	(hierarchical_label "MCU_HLDX_BRAKES"
 		(shape input)
-		(at 175.26 95.25 180)
+		(at 173.99 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2183,7 +2795,7 @@
 	)
 	(hierarchical_label "BODY_HANDBRAKE"
 		(shape input)
-		(at 45.72 49.53 180)
+		(at 44.45 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2195,7 +2807,7 @@
 	)
 	(hierarchical_label "LIN_RX"
 		(shape output)
-		(at 68.58 160.02 180)
+		(at 314.96 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2205,9 +2817,21 @@
 		)
 		(uuid "8515afe8-0f52-4543-82ed-da77d0ae3a0b")
 	)
+	(hierarchical_label "MCU_USER_INPUT_2"
+		(shape output)
+		(at 106.68 215.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8906c267-dbe3-4455-a295-11c58c0da027")
+	)
 	(hierarchical_label "MCU_BODY_HANDBRAKE"
 		(shape output)
-		(at 107.95 49.53 0)
+		(at 106.68 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2219,7 +2843,7 @@
 	)
 	(hierarchical_label "BODY_BRAKES"
 		(shape input)
-		(at 45.72 95.25 180)
+		(at 44.45 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2231,7 +2855,7 @@
 	)
 	(hierarchical_label "HLDX_HANDBRAKE"
 		(shape output)
-		(at 246.38 49.53 0)
+		(at 245.11 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2243,7 +2867,7 @@
 	)
 	(hierarchical_label "HLDX_BRAKES"
 		(shape output)
-		(at 246.38 95.25 0)
+		(at 245.11 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2253,9 +2877,33 @@
 		)
 		(uuid "b47d60a7-560c-40af-af41-fb74820f0721")
 	)
+	(hierarchical_label "USER_INPUT_2"
+		(shape input)
+		(at 44.45 215.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e10e4bc2-46cc-410a-a0f7-a2401033b1c1")
+	)
+	(hierarchical_label "USER_OUTPUT_2"
+		(shape output)
+		(at 245.11 215.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e737df4b-0c33-49a3-b014-29629ef039ce")
+	)
 	(hierarchical_label "LIN_TX"
 		(shape input)
-		(at 68.58 162.56 180)
+		(at 314.96 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2267,7 +2915,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 104.14 0)
+		(at 63.5 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2275,8 +2923,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01844b8d-687d-4a79-8c29-47e6bba1aa29")
-		(property "Reference" "#PWR0104"
-			(at 64.77 110.49 0)
+		(property "Reference" "#PWR0120"
+			(at 63.5 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2933,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 109.22 0)
+			(at 63.5 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2293,7 +2941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 104.14 0)
+			(at 63.5 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2302,7 +2950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 104.14 0)
+			(at 63.5 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +2959,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 104.14 0)
+			(at 63.5 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +2973,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "#PWR0104")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -2333,7 +2981,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 200.66 49.53 90)
+		(at 199.39 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2341,8 +2989,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "082d6681-8452-427d-9249-8e93e7953366")
-		(property "Reference" "R45"
-			(at 200.66 44.45 90)
+		(property "Reference" "R63"
+			(at 199.39 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2998,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 200.66 46.99 90)
+			(at 199.39 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,7 +3006,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 200.66 49.53 0)
+			(at 199.39 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,7 +3015,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 49.53 0)
+			(at 199.39 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,7 +3024,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 200.66 49.53 0)
+			(at 199.39 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,42 +3041,126 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "R45")
+					(reference "R63")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 134.62 168.91 0)
+		(lib_id "Isolator:LTV-827S")
+		(at 218.44 218.44 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aa43bf8-1e59-4ec2-9137-10376685522f")
+		(property "Reference" "U13"
+			(at 218.44 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-827S"
+			(at 218.44 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
+			(at 218.44 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+			(at 198.12 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
+			(at 218.44 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "cb352203-66fa-454a-8d53-c5f466468a88")
+		)
+		(pin "6"
+			(uuid "bd1d11df-8e80-410e-a427-ba863e863218")
+		)
+		(pin "5"
+			(uuid "d1ec800d-ec41-4d0c-933d-c09f98b1ccfb")
+		)
+		(pin "7"
+			(uuid "c5c81965-2901-4289-86e7-0e378df60586")
+		)
+		(pin "4"
+			(uuid "cef727e1-61d0-4dd8-b5a7-f0429f9d7716")
+		)
+		(pin "3"
+			(uuid "d77ce543-9ac7-4e69-81bb-bcbea7a034f9")
+		)
+		(pin "1"
+			(uuid "c169ac2d-2691-49f2-93dc-04cec22255bd")
+		)
+		(pin "2"
+			(uuid "65a240a1-d0d7-424a-9a6f-a4a0ec682cc4")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "U13")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 199.39 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "22381375-63f9-4e8c-982b-1afe6ce908f9")
-		(property "Reference" "C42"
-			(at 137.16 167.6462 0)
+		(uuid "1bec3b5c-e320-47cc-83ba-b9902ea218a0")
+		(property "Reference" "R65"
+			(at 199.39 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "220p"
-			(at 137.16 170.1862 0)
+		(property "Value" "R_Small"
+			(at 199.39 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 134.62 168.91 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 199.39 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2437,7 +3169,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 168.91 0)
+			(at 199.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 199.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45e22329-c6b3-4459-8038-95b3a7459b5a")
+		)
+		(pin "2"
+			(uuid "ad44d304-fed4-4798-8625-a47b7f3af791")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 381 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22381375-63f9-4e8c-982b-1afe6ce908f9")
+		(property "Reference" "C44"
+			(at 383.54 149.8662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220p"
+			(at 383.54 152.4062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 381 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 381 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2446,7 +3248,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 134.62 168.91 0)
+			(at 381 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +3265,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "C42")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -2471,16 +3273,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 104.14 0)
+		(at 207.01 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2f6f9752-4a20-412c-8e20-9bd46d051a1f")
-		(property "Reference" "#PWR0133"
-			(at 87.63 110.49 0)
+		(uuid "27efbac1-5323-44a3-bccc-80cad2eefd56")
+		(property "Reference" "#PWR0134"
+			(at 207.01 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +3291,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 109.22 0)
+			(at 207.01 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2497,7 +3299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 104.14 0)
+			(at 207.01 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2506,7 +3308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 104.14 0)
+			(at 207.01 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,7 +3317,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 104.14 0)
+			(at 207.01 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f504d23-4c61-4f8b-836d-0e770a2a4a53")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f6f9752-4a20-412c-8e20-9bd46d051a1f")
+		(property "Reference" "#PWR0126"
+			(at 86.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,24 +3397,24 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "#PWR0133")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 134.62 175.26 0)
+		(lib_id "power:+3V3")
+		(at 86.36 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "40940708-1b1a-4dfa-8d65-337c78f35389")
-		(property "Reference" "#PWR0135"
-			(at 134.62 181.61 0)
+		(uuid "326c1705-e85d-4114-bcf8-abdd3bf22524")
+		(property "Reference" "#PWR0129"
+			(at 86.36 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,8 +3422,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 134.62 180.34 0)
+		(property "Value" "+3V3"
+			(at 86.36 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +3431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 175.26 0)
+			(at 86.36 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +3440,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 175.26 0)
+			(at 86.36 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 86.36 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "334da38b-3094-4553-a57e-d8eeacafca93")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "340e3ad7-67ab-435a-b117-d96aa3407712")
+		(property "Reference" "#PWR0128"
+			(at 86.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +3515,205 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 175.26 0)
+			(at 86.36 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70b3f6f2-32fb-46e3-8eb6-72ad738420b1")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 63.5 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34cb8675-9bbd-44fa-be67-d97478c63901")
+		(property "Reference" "#PWR0121"
+			(at 63.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 63.373 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 63.5 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6474495-6876-41a6-8624-838d14078b15")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 63.5 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dbcc702-ed9e-4567-8803-6c07112d78b7")
+		(property "Reference" "#PWR0122"
+			(at 63.5 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 63.373 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 63.5 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e877b3d8-638f-4edd-87da-006d4827fc63")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 381 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40940708-1b1a-4dfa-8d65-337c78f35389")
+		(property "Reference" "#PWR0145"
+			(at 381 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 381 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 381 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2595,7 +3727,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "#PWR0135")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -2603,7 +3735,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 57.15 49.53 90)
+		(at 55.88 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2611,8 +3743,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41d00fb7-bdba-4299-80ba-959adf7a903f")
-		(property "Reference" "R47"
-			(at 57.15 44.45 90)
+		(property "Reference" "R55"
+			(at 55.88 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,7 +3752,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 57.15 46.99 90)
+			(at 55.88 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,7 +3760,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 57.15 49.53 0)
+			(at 55.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +3769,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 49.53 0)
+			(at 55.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +3778,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 57.15 49.53 0)
+			(at 55.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2663,7 +3795,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "R47")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -2671,7 +3803,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 58.42 0)
+		(at 63.5 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2679,8 +3811,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46c95d83-127c-49b9-93bc-8d1832e37756")
-		(property "Reference" "#PWR0103"
-			(at 64.77 64.77 0)
+		(property "Reference" "#PWR0119"
+			(at 63.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2689,7 +3821,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 63.5 0)
+			(at 63.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +3829,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 58.42 0)
+			(at 63.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,7 +3838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 58.42 0)
+			(at 63.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +3847,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 58.42 0)
+			(at 63.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +3861,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "#PWR0103")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -2737,7 +3869,7 @@
 	)
 	(symbol
 		(lib_id "TLIN1027DRQ1:TLIN1027DRQ1")
-		(at 86.36 160.02 0)
+		(at 332.74 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2745,8 +3877,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49d0a803-4a84-46b0-a6e1-afa190d083f4")
-		(property "Reference" "IC3"
-			(at 100.33 152.4 0)
+		(property "Reference" "IC4"
+			(at 346.71 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +3886,7 @@
 			)
 		)
 		(property "Value" "TLIN1027DRQ1"
-			(at 100.33 154.94 0)
+			(at 346.71 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +3894,7 @@
 			)
 		)
 		(property "Footprint" "SOIC127P600X175-8N"
-			(at 110.49 254.94 0)
+			(at 356.87 237.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +3904,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlin1027-q1.pdf?ts=1623238346841&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTLIN1027DRQ1"
-			(at 110.49 354.94 0)
+			(at 356.87 337.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2782,7 +3914,7 @@
 			)
 		)
 		(property "Description" "LIN Transceivers Automotive local interconnect network (LIN) transceiver for K-line applications 8-SOIC -40 to 125"
-			(at 89.154 151.13 0)
+			(at 335.534 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +3923,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 110.49 554.94 0)
+			(at 356.87 537.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,7 +3933,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 110.49 654.94 0)
+			(at 356.87 637.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +3943,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TLIN1027DRQ1"
-			(at 110.49 754.94 0)
+			(at 356.87 737.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,7 +3953,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TLIN1027DRQ1"
-			(at 110.49 854.94 0)
+			(at 356.87 837.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +3963,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLIN1027DRQ1?qs=81r%252BiQLm7BSvxIRMUe8lew%3D%3D"
-			(at 110.49 954.94 0)
+			(at 356.87 937.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,7 +3973,7 @@
 			)
 		)
 		(property "Arrow Part Number" "TLIN1027DRQ1"
-			(at 110.49 1054.94 0)
+			(at 356.87 1037.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,7 +3983,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tlin1027drq1/texas-instruments"
-			(at 110.49 1154.94 0)
+			(at 356.87 1137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,7 +4019,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "IC3")
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -2895,7 +4027,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 231.14 40.64 180)
+		(at 229.87 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2903,8 +4035,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f9a78a9-e00f-46c8-a27e-1c36bb6a6a3b")
-		(property "Reference" "R55"
-			(at 234.95 39.3699 0)
+		(property "Reference" "R67"
+			(at 233.68 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +4045,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 234.95 41.9099 0)
+			(at 233.68 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2922,7 +4054,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 231.14 40.64 0)
+			(at 229.87 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +4063,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 40.64 0)
+			(at 229.87 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +4072,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 231.14 40.64 0)
+			(at 229.87 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +4089,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "R55")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -2965,7 +4097,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 134.62 153.67 0)
+		(at 381 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2973,8 +4105,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f5da3db-aab9-439d-8b07-8de8c5bb7d79")
-		(property "Reference" "R59"
-			(at 137.16 152.3999 0)
+		(property "Reference" "R70"
+			(at 383.54 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +4115,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 137.16 154.9399 0)
+			(at 383.54 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +4124,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 134.62 153.67 0)
+			(at 381 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,7 +4133,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 153.67 0)
+			(at 381 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +4142,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 134.62 153.67 0)
+			(at 381 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +4159,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "R59")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -3035,7 +4167,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 231.14 86.36 180)
+		(at 229.87 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3043,8 +4175,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "710fef07-8772-4ce4-8478-bc82c2ef91e3")
-		(property "Reference" "R56"
-			(at 234.95 85.0899 0)
+		(property "Reference" "R68"
+			(at 233.68 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +4185,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 234.95 87.6299 0)
+			(at 233.68 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +4194,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 231.14 86.36 0)
+			(at 229.87 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +4203,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 86.36 0)
+			(at 229.87 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +4212,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 231.14 86.36 0)
+			(at 229.87 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +4229,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "R56")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -3105,7 +4237,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 80.01 144.78 0)
+		(at 326.39 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3113,8 +4245,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77b7f16f-96de-4afe-b8f3-63b28b103340")
-		(property "Reference" "#PWR0100"
-			(at 80.01 148.59 0)
+		(property "Reference" "#PWR0141"
+			(at 326.39 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,7 +4255,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 80.01 139.7 0)
+			(at 326.39 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3131,7 +4263,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 144.78 0)
+			(at 326.39 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,7 +4272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 144.78 0)
+			(at 326.39 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,7 +4281,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 80.01 144.78 0)
+			(at 326.39 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,7 +4295,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "#PWR0100")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -3171,7 +4303,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 87.63 40.64 180)
+		(at 86.36 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3179,8 +4311,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ac87a87-d2a6-41e6-abf3-b8fbde2db767")
-		(property "Reference" "R57"
-			(at 91.44 39.3699 0)
+		(property "Reference" "R59"
+			(at 90.17 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,7 +4321,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 91.44 41.9099 0)
+			(at 90.17 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +4330,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 87.63 40.64 0)
+			(at 86.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,7 +4339,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 40.64 0)
+			(at 86.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +4348,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 87.63 40.64 0)
+			(at 86.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,7 +4365,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "R57")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -3241,7 +4373,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-827S")
-		(at 76.2 97.79 0)
+		(at 74.93 118.11 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3249,8 +4381,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82dd7fd6-7f5c-4891-a83f-8ca8512f647f")
-		(property "Reference" "U8"
-			(at 76.2 88.9 0)
+		(property "Reference" "U10"
+			(at 74.93 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,7 +4390,7 @@
 			)
 		)
 		(property "Value" "LTV-827S"
-			(at 76.2 91.44 0)
+			(at 74.93 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +4398,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
-			(at 76.2 105.41 0)
+			(at 74.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,7 +4407,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 55.88 83.82 0)
+			(at 54.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,7 +4416,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
-			(at 76.2 97.79 0)
+			(at 74.93 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,24 +4451,40 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "U8")
+					(reference "U10")
 					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 87.63 78.74 0)
+		(lib_id "Isolator:LTV-827S")
+		(at 74.93 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "85c8c94c-aebe-404a-941c-6a778ac8d8ce")
-		(property "Reference" "#PWR0132"
-			(at 87.63 82.55 0)
+		(uuid "83510d35-9a56-48e1-a7ad-b4dafd44b3fc")
+		(property "Reference" "U11"
+			(at 74.93 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-827S"
+			(at 74.93 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
+			(at 74.93 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,8 +4492,78 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 87.63 73.66 0)
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+			(at 54.61 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "933cf6f4-d503-40b9-a4bf-45b3b9566669")
+		)
+		(pin "6"
+			(uuid "00399709-7104-4904-9ed9-79bb1a13d769")
+		)
+		(pin "5"
+			(uuid "55ce45ea-3442-4bf4-bd2d-86017bc79cd1")
+		)
+		(pin "7"
+			(uuid "5d8a3a3b-e04c-4f2e-ab9a-5d07adba068b")
+		)
+		(pin "4"
+			(uuid "90258ba0-9eb7-435b-b1ea-49cd4561ffa1")
+		)
+		(pin "3"
+			(uuid "ef0be89b-d49c-4283-a096-bd1aaba85075")
+		)
+		(pin "1"
+			(uuid "bef47379-1a49-44b9-9663-1c72894fc466")
+		)
+		(pin "2"
+			(uuid "8cf1cfcc-3b29-45db-b6d6-21243fb68470")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 229.87 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8509d3c2-9426-4d1c-99ad-98f754767685")
+		(property "Reference" "#PWR0139"
+			(at 229.87 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 229.743 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +4571,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 78.74 0)
+			(at 229.87 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +4580,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 78.74 0)
+			(at 229.87 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 229.87 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67ccf9c0-948b-42ff-a9ce-2391955a6421")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 86.36 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85c8c94c-aebe-404a-941c-6a778ac8d8ce")
+		(property "Reference" "#PWR0125"
+			(at 86.36 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +4655,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 87.63 78.74 0)
+			(at 86.36 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,7 +4669,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "#PWR0132")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -3393,7 +4677,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 58.42 0)
+		(at 207.01 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3401,8 +4685,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d011a23-dba4-4ee9-818f-dd18e9ff9818")
-		(property "Reference" "#PWR0101"
-			(at 208.28 64.77 0)
+		(property "Reference" "#PWR0131"
+			(at 207.01 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +4695,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 63.5 0)
+			(at 207.01 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3419,7 +4703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 58.42 0)
+			(at 207.01 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3428,7 +4712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 58.42 0)
+			(at 207.01 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +4721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 58.42 0)
+			(at 207.01 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,7 +4735,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "#PWR0101")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -3459,7 +4743,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 57.15 95.25 90)
+		(at 55.88 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3467,8 +4751,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91d2e9e3-d1ca-4ff0-b8b4-c8bf49a2ca9a")
-		(property "Reference" "R54"
-			(at 57.15 90.17 90)
+		(property "Reference" "R56"
+			(at 55.88 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +4760,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 57.15 92.71 90)
+			(at 55.88 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,7 +4768,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 57.15 95.25 0)
+			(at 55.88 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,7 +4777,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 95.25 0)
+			(at 55.88 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,7 +4786,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 57.15 95.25 0)
+			(at 55.88 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +4803,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "R54")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -3527,7 +4811,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 87.63 86.36 180)
+		(at 86.36 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3535,8 +4819,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97dab943-f6d4-4d3f-afc4-7b1b84992e37")
-		(property "Reference" "R58"
-			(at 91.44 85.0899 0)
+		(property "Reference" "R60"
+			(at 90.17 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3545,7 +4829,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 91.44 87.6299 0)
+			(at 90.17 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +4838,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 87.63 86.36 0)
+			(at 86.36 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +4847,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 86.36 0)
+			(at 86.36 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +4856,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 87.63 86.36 0)
+			(at 86.36 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,7 +4873,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "R58")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -3597,7 +4881,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 231.14 78.74 0)
+		(at 229.87 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3605,8 +4889,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b7f1a5e-53d8-484d-9682-feb781b07a65")
-		(property "Reference" "#PWR0127"
-			(at 231.14 82.55 0)
+		(property "Reference" "#PWR0137"
+			(at 229.87 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,7 +4899,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 231.14 73.66 0)
+			(at 229.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3623,7 +4907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 78.74 0)
+			(at 229.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,7 +4916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 78.74 0)
+			(at 229.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3641,7 +4925,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 231.14 78.74 0)
+			(at 229.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,15 +4939,187 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "#PWR0127")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_id "Isolator:LTV-827S")
+		(at 218.44 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a264b011-b698-4f53-84ee-09086d56f03e")
+		(property "Reference" "U13"
+			(at 218.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-827S"
+			(at 218.44 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
+			(at 218.44 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+			(at 198.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
+			(at 218.44 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "fff46ff1-37fd-4f6a-8697-edda748ac5b2")
+		)
+		(pin "6"
+			(uuid "00399709-7104-4904-9ed9-79bb1a13d768")
+		)
+		(pin "5"
+			(uuid "55ce45ea-3442-4bf4-bd2d-86017bc79cd0")
+		)
+		(pin "7"
+			(uuid "344d8c60-b864-42d7-bee3-82b94403517b")
+		)
+		(pin "4"
+			(uuid "90258ba0-9eb7-435b-b1ea-49cd4561ffa0")
+		)
+		(pin "3"
+			(uuid "ef0be89b-d49c-4283-a096-bd1aaba85074")
+		)
+		(pin "1"
+			(uuid "a4153f9d-aa48-4dff-a542-2c3a73e76c45")
+		)
+		(pin "2"
+			(uuid "eb2c07fa-03a8-4fe1-ba4f-9a2192053436")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:LTV-827S")
+		(at 74.93 218.44 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9e25f89-5bff-4190-bcf2-54979029e2b8")
+		(property "Reference" "U11"
+			(at 74.93 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-827S"
+			(at 74.93 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
+			(at 74.93 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+			(at 54.61 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
+			(at 74.93 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "cb352203-66fa-454a-8d53-c5f466468a8a")
+		)
+		(pin "6"
+			(uuid "24f48ee7-9c2b-49fa-8d8e-8725db1012e9")
+		)
+		(pin "5"
+			(uuid "7dd3fb86-bbf0-437d-8d23-e87b261f67af")
+		)
+		(pin "7"
+			(uuid "c5c81965-2901-4289-86e7-0e378df60588")
+		)
+		(pin "4"
+			(uuid "43639493-12e0-40a8-a17d-f1b1fa8434da")
+		)
+		(pin "3"
+			(uuid "6e087814-fc02-4cfa-9af3-e6a62a3b8a4d")
+		)
+		(pin "1"
+			(uuid "c169ac2d-2691-49f2-93dc-04cec22255bf")
+		)
+		(pin "2"
+			(uuid "65a240a1-d0d7-424a-9a6f-a4a0ec682cc6")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "U11")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
-		(at 87.63 33.02 0)
+		(at 86.36 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3671,8 +5127,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9feb659-2c24-4086-be8e-abb8a028b20b")
-		(property "Reference" "#PWR0130"
-			(at 87.63 36.83 0)
+		(property "Reference" "#PWR0123"
+			(at 86.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +5137,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 87.63 27.94 0)
+			(at 86.36 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3689,7 +5145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 33.02 0)
+			(at 86.36 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,7 +5154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 33.02 0)
+			(at 86.36 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3707,7 +5163,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 87.63 33.02 0)
+			(at 86.36 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +5177,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "#PWR0130")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -3729,7 +5185,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 80.01 151.13 0)
+		(at 326.39 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3737,8 +5193,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa71d34f-d70e-462b-a352-2bf85c8747fd")
-		(property "Reference" "R44"
-			(at 82.55 149.8599 0)
+		(property "Reference" "R69"
+			(at 328.93 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3747,7 +5203,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 82.55 152.3999 0)
+			(at 328.93 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3756,7 +5212,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 80.01 151.13 0)
+			(at 326.39 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,7 +5221,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 151.13 0)
+			(at 326.39 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,7 +5230,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 80.01 151.13 0)
+			(at 326.39 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,7 +5247,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "R44")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -3799,7 +5255,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 134.62 135.89 0)
+		(at 381 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3807,8 +5263,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abff5104-eb7a-48b7-8086-e197fe3e7dfb")
-		(property "Reference" "#PWR0134"
-			(at 134.62 139.7 0)
+		(property "Reference" "#PWR0144"
+			(at 381 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +5273,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 134.62 130.81 0)
+			(at 381 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3825,7 +5281,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 135.89 0)
+			(at 381 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3834,7 +5290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 135.89 0)
+			(at 381 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,7 +5299,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 134.62 135.89 0)
+			(at 381 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +5313,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "#PWR0134")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -3865,7 +5321,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 111.76 139.7 90)
+		(at 358.14 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3873,8 +5329,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5a7e749-3369-40e1-910d-999b1a0d8fbf")
-		(property "Reference" "C41"
-			(at 111.7663 133.35 90)
+		(property "Reference" "C43"
+			(at 358.1463 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +5338,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 111.7663 135.89 90)
+			(at 358.1463 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +5346,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 111.76 139.7 0)
+			(at 358.14 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +5355,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 139.7 0)
+			(at 358.14 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +5364,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 111.76 139.7 0)
+			(at 358.14 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +5381,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "C41")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -3933,32 +5389,34 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 200.66 95.25 90)
+		(at 86.36 161.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc1da96c-5d2a-4cc4-8dbb-7d9a1348c179")
-		(property "Reference" "R46"
-			(at 200.66 90.17 90)
+		(uuid "b9b5138d-2a81-477d-a3a9-a635fa8422b1")
+		(property "Reference" "R61"
+			(at 90.17 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
-			(at 200.66 92.71 90)
+		(property "Value" "10k"
+			(at 90.17 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 200.66 95.25 0)
+			(at 86.36 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,7 +5425,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 95.25 0)
+			(at 86.36 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,7 +5434,411 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 200.66 95.25 0)
+			(at 86.36 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a00d8c5c-815b-465e-ac4c-5a7cafa8ec9d")
+		)
+		(pin "2"
+			(uuid "d96ee157-353f-49e5-904e-7250f78e7f16")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba4b9011-23eb-4791-9a3a-2d6900c8ca4b")
+		(property "Reference" "#PWR0133"
+			(at 207.01 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35f162c5-4fb1-4e4a-963f-6235bf301c1a")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 55.88 215.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcffb16c-10e7-44fb-90ab-6b9ce97bd80d")
+		(property "Reference" "R58"
+			(at 55.88 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 55.88 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 55.88 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 55.88 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af659ff8-1076-4aea-ad70-93c9f98ad09a")
+		)
+		(pin "2"
+			(uuid "efaa58bf-5d29-49c3-a349-03f07e9c0fdf")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 55.88 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd91e30a-6cbd-4f7a-8f53-83902f675c02")
+		(property "Reference" "R57"
+			(at 55.88 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 55.88 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 55.88 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 55.88 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fafc9236-00f5-4bad-844f-617246eb1fc1")
+		)
+		(pin "2"
+			(uuid "afbd303d-a834-41b1-ba2d-89125beb06f1")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 229.87 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1a08d71-4e84-4f1f-8ab4-9f837c87e452")
+		(property "Reference" "#PWR0140"
+			(at 229.87 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 229.743 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 229.87 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4f21360-7fea-40ab-8f30-7b34080d985e")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 199.39 215.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8c983b8-1591-40d6-b65c-d358667e59b7")
+		(property "Reference" "R66"
+			(at 199.39 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 199.39 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 199.39 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 199.39 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c04bea2-f602-4433-a703-30d07cb0e33a")
+		)
+		(pin "2"
+			(uuid "c2d1122d-9154-4991-ab1d-28ec26f276c5")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 199.39 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc1da96c-5d2a-4cc4-8dbb-7d9a1348c179")
+		(property "Reference" "R64"
+			(at 199.39 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 199.39 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 199.39 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +5855,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "R46")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -4001,7 +5863,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 104.14 0)
+		(at 207.01 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4009,8 +5871,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdd00db5-1c92-41d5-ac10-0e03c67d88ad")
-		(property "Reference" "#PWR0102"
-			(at 208.28 110.49 0)
+		(property "Reference" "#PWR0132"
+			(at 207.01 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +5881,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 109.22 0)
+			(at 207.01 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4027,7 +5889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 104.14 0)
+			(at 207.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +5898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 104.14 0)
+			(at 207.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +5907,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 104.14 0)
+			(at 207.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,7 +5921,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "#PWR0102")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -4067,7 +5929,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 231.14 33.02 0)
+		(at 229.87 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4075,8 +5937,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3b15606-c71b-411c-88b3-cd404943aa80")
-		(property "Reference" "#PWR0125"
-			(at 231.14 36.83 0)
+		(property "Reference" "#PWR0135"
+			(at 229.87 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +5947,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 231.14 27.94 0)
+			(at 229.87 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,7 +5955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 33.02 0)
+			(at 229.87 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +5964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 33.02 0)
+			(at 229.87 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,7 +5973,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 231.14 33.02 0)
+			(at 229.87 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +5987,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "#PWR0125")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -4133,16 +5995,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 58.42 0)
+		(at 86.36 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "da8c479d-d058-4068-82f5-3630973aab51")
-		(property "Reference" "#PWR0131"
-			(at 87.63 64.77 0)
+		(uuid "d739ac72-ddac-42d3-92d3-7abcb3737059")
+		(property "Reference" "#PWR0130"
+			(at 86.36 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4151,7 +6013,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 63.5 0)
+			(at 86.36 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,7 +6021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 58.42 0)
+			(at 86.36 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +6030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 58.42 0)
+			(at 86.36 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,7 +6039,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 58.42 0)
+			(at 86.36 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f81d2de-e616-4a82-9a3b-a9f4f1286d7b")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da8c479d-d058-4068-82f5-3630973aab51")
+		(property "Reference" "#PWR0124"
+			(at 86.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,24 +6119,24 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "#PWR0131")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 231.14 58.42 0)
+		(lib_id "power:+3V3")
+		(at 86.36 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dc50344a-24b3-4240-8146-9c1900af9413")
-		(property "Reference" "#PWR0126"
-			(at 231.14 64.77 0)
+		(uuid "dc2807b9-4bae-48fe-80b2-19664a177704")
+		(property "Reference" "#PWR0127"
+			(at 86.36 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,8 +6144,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 231.14 63.5 0)
+		(property "Value" "+3V3"
+			(at 86.36 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +6153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 58.42 0)
+			(at 86.36 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,7 +6162,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 58.42 0)
+			(at 86.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 86.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7723bc5-15b6-4d49-bd3a-2f093dac4cdf")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc50344a-24b3-4240-8146-9c1900af9413")
+		(property "Reference" "#PWR0136"
+			(at 229.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +6237,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 58.42 0)
+			(at 229.87 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4257,7 +6251,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "#PWR0126")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -4265,7 +6259,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-827S")
-		(at 219.71 97.79 0)
+		(at 218.44 118.11 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4273,8 +6267,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcfa16b4-a6cb-47dd-8b40-e74afed383ef")
-		(property "Reference" "U2"
-			(at 219.71 88.9 0)
+		(property "Reference" "U12"
+			(at 218.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,7 +6276,7 @@
 			)
 		)
 		(property "Value" "LTV-827S"
-			(at 219.71 91.44 0)
+			(at 218.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +6284,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
-			(at 219.71 105.41 0)
+			(at 218.44 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +6293,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 199.39 83.82 0)
+			(at 198.12 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +6302,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
-			(at 219.71 97.79 0)
+			(at 218.44 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +6311,7 @@
 			)
 		)
 		(pin "8"
-			(uuid "cb352203-66fa-454a-8d53-c5f466468a88")
+			(uuid "cb352203-66fa-454a-8d53-c5f466468a8b")
 		)
 		(pin "6"
 			(uuid "3a53b761-1e12-4489-ab89-f09f469492ae")
@@ -4326,7 +6320,7 @@
 			(uuid "b10962b0-f7d6-4d14-9b34-0c96595badec")
 		)
 		(pin "7"
-			(uuid "c5c81965-2901-4289-86e7-0e378df60586")
+			(uuid "c5c81965-2901-4289-86e7-0e378df60589")
 		)
 		(pin "4"
 			(uuid "ca7b6ef9-22d8-462e-9c27-5dc8717a57cc")
@@ -4335,23 +6329,93 @@
 			(uuid "3b5213be-22a1-4fee-b44f-612e4598f4e7")
 		)
 		(pin "1"
-			(uuid "c169ac2d-2691-49f2-93dc-04cec22255bd")
+			(uuid "c169ac2d-2691-49f2-93dc-04cec22255c0")
 		)
 		(pin "2"
-			(uuid "65a240a1-d0d7-424a-9a6f-a4a0ec682cc4")
+			(uuid "65a240a1-d0d7-424a-9a6f-a4a0ec682cc7")
 		)
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "U2")
+					(reference "U12")
 					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 86.36 207.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0508647-22c7-40b1-8cc1-56c8a7ada7bb")
+		(property "Reference" "R62"
+			(at 90.17 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 90.17 208.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 86.36 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 86.36 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41d33266-da4b-4e49-a909-8f0324ace193")
+		)
+		(pin "2"
+			(uuid "dfb752fa-e52a-401f-aa87-f00bdc520e5d")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 118.11 175.26 0)
+		(at 364.49 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4359,8 +6423,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1995ad6-95df-4960-bb72-7023207c1de3")
-		(property "Reference" "#PWR0129"
-			(at 118.11 181.61 0)
+		(property "Reference" "#PWR0143"
+			(at 364.49 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +6433,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 180.34 0)
+			(at 364.49 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,7 +6441,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 175.26 0)
+			(at 364.49 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,7 +6450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 175.26 0)
+			(at 364.49 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +6459,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 175.26 0)
+			(at 364.49 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +6473,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "#PWR0129")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -4417,7 +6481,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 104.14 0)
+		(at 229.87 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4425,8 +6489,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2ada52f-11aa-49fb-b3fa-6d95d72af39e")
-		(property "Reference" "#PWR0128"
-			(at 231.14 110.49 0)
+		(property "Reference" "#PWR0138"
+			(at 229.87 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +6499,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 109.22 0)
+			(at 229.87 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +6507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 104.14 0)
+			(at 229.87 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,7 +6516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 104.14 0)
+			(at 229.87 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,7 +6525,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 104.14 0)
+			(at 229.87 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +6539,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "#PWR0128")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -4483,7 +6547,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 134.62 146.05 90)
+		(at 381 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4491,8 +6555,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e54c8024-5f67-4e3b-89c0-a1a222dc9e88")
-		(property "Reference" "D19"
-			(at 137.16 144.7799 90)
+		(property "Reference" "D13"
+			(at 383.54 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4501,7 +6565,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 137.16 147.3199 90)
+			(at 383.54 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4510,7 +6574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 146.05 90)
+			(at 381 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4519,7 +6583,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 146.05 90)
+			(at 381 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,7 +6592,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 134.62 146.05 0)
+			(at 381 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,7 +6601,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 134.62 146.05 0)
+			(at 381 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4546,7 +6610,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 146.05 0)
+			(at 381 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +6627,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "D19")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -4571,7 +6635,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 143.51 0)
+		(at 353.06 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4579,8 +6643,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eea53215-eab6-4399-a457-91a4fd74dcb3")
-		(property "Reference" "#PWR0105"
-			(at 106.68 149.86 0)
+		(property "Reference" "#PWR0142"
+			(at 353.06 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +6653,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 148.59 0)
+			(at 353.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +6661,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 143.51 0)
+			(at 353.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +6670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 143.51 0)
+			(at 353.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +6679,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 143.51 0)
+			(at 353.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4629,7 +6693,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "#PWR0105")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -4637,7 +6701,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-827S")
-		(at 76.2 52.07 0)
+		(at 74.93 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4645,8 +6709,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eee426ed-a5cf-4232-957b-91df1e71795b")
-		(property "Reference" "U8"
-			(at 76.2 43.18 0)
+		(property "Reference" "U10"
+			(at 74.93 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4654,7 +6718,7 @@
 			)
 		)
 		(property "Value" "LTV-827S"
-			(at 76.2 45.72 0)
+			(at 74.93 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4662,7 +6726,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
-			(at 76.2 59.69 0)
+			(at 74.93 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4671,7 +6735,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 55.88 38.1 0)
+			(at 54.61 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,7 +6744,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
-			(at 76.2 52.07 0)
+			(at 74.93 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,19 +6756,19 @@
 			(uuid "06f91767-845b-4e49-a88a-665a10880a36")
 		)
 		(pin "6"
-			(uuid "00399709-7104-4904-9ed9-79bb1a13d769")
+			(uuid "00399709-7104-4904-9ed9-79bb1a13d76a")
 		)
 		(pin "5"
-			(uuid "55ce45ea-3442-4bf4-bd2d-86017bc79cd1")
+			(uuid "55ce45ea-3442-4bf4-bd2d-86017bc79cd2")
 		)
 		(pin "7"
 			(uuid "3ed5ce7e-b9ca-44ff-ab3e-276c5b5d8164")
 		)
 		(pin "4"
-			(uuid "90258ba0-9eb7-435b-b1ea-49cd4561ffa1")
+			(uuid "90258ba0-9eb7-435b-b1ea-49cd4561ffa2")
 		)
 		(pin "3"
-			(uuid "ef0be89b-d49c-4283-a096-bd1aaba85075")
+			(uuid "ef0be89b-d49c-4283-a096-bd1aaba85076")
 		)
 		(pin "1"
 			(uuid "2712c803-64c1-477b-887e-5d8a1a3e143e")
@@ -4715,7 +6779,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "U8")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -4723,7 +6787,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-827S")
-		(at 219.71 52.07 0)
+		(at 218.44 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4731,8 +6795,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdaca9ba-d236-416d-9a66-37a8007c663f")
-		(property "Reference" "U2"
-			(at 219.71 43.18 0)
+		(property "Reference" "U12"
+			(at 218.44 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +6804,7 @@
 			)
 		)
 		(property "Value" "LTV-827S"
-			(at 219.71 45.72 0)
+			(at 218.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,7 +6812,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
-			(at 219.71 59.69 0)
+			(at 218.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,7 +6821,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 199.39 38.1 0)
+			(at 198.12 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4766,7 +6830,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
-			(at 219.71 52.07 0)
+			(at 218.44 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,19 +6842,19 @@
 			(uuid "63740597-604b-4960-a18f-d899e1080bfb")
 		)
 		(pin "6"
-			(uuid "00399709-7104-4904-9ed9-79bb1a13d768")
+			(uuid "00399709-7104-4904-9ed9-79bb1a13d76b")
 		)
 		(pin "5"
-			(uuid "55ce45ea-3442-4bf4-bd2d-86017bc79cd0")
+			(uuid "55ce45ea-3442-4bf4-bd2d-86017bc79cd3")
 		)
 		(pin "7"
 			(uuid "88418ef9-b16c-4cbd-9dc2-7a825247fd67")
 		)
 		(pin "4"
-			(uuid "90258ba0-9eb7-435b-b1ea-49cd4561ffa0")
+			(uuid "90258ba0-9eb7-435b-b1ea-49cd4561ffa3")
 		)
 		(pin "3"
-			(uuid "ef0be89b-d49c-4283-a096-bd1aaba85074")
+			(uuid "ef0be89b-d49c-4283-a096-bd1aaba85077")
 		)
 		(pin "1"
 			(uuid "baaef9f8-8290-405c-a76e-140779aaa777")
@@ -4801,7 +6865,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/a8228371-a1f4-4068-bbb3-ffa75e2073d0"
-					(reference "U2")
+					(reference "U12")
 					(unit 1)
 				)
 			)

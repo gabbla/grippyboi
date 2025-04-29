@@ -2706,7 +2706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c66d46c-cbbc-48f7-85e6-931da1bdeb28")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR074"
 			(at 138.43 113.03 0)
 			(effects
 				(font
@@ -2756,7 +2756,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/043ef3bc-15f0-4a00-a1c6-c31e1a8ee615"
-					(reference "#PWR032")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -2772,7 +2772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f3ba775-8c76-4398-b89f-3245ae422573")
-		(property "Reference" "#FLG011"
+		(property "Reference" "#FLG09"
 			(at 167.005 81.28 0)
 			(effects
 				(font
@@ -2823,7 +2823,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/043ef3bc-15f0-4a00-a1c6-c31e1a8ee615"
-					(reference "#FLG011")
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -2838,7 +2838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "399e40c0-1799-40b7-bc93-8bc63bc008a6")
-		(property "Reference" "FB3"
+		(property "Reference" "FB5"
 			(at 148.59 75.184 90)
 			(effects
 				(font
@@ -2890,7 +2890,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/043ef3bc-15f0-4a00-a1c6-c31e1a8ee615"
-					(reference "FB3")
+					(reference "FB5")
 					(unit 1)
 				)
 			)
@@ -2973,7 +2973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "417dea0d-5c73-40de-b5ea-a8b74cca5810")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR076"
 			(at 209.55 90.17 0)
 			(effects
 				(font
@@ -3023,7 +3023,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/043ef3bc-15f0-4a00-a1c6-c31e1a8ee615"
-					(reference "#PWR034")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -3039,7 +3039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "465f305f-5e56-4232-b639-521ba27f5e64")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR075"
 			(at 160.02 80.01 0)
 			(effects
 				(font
@@ -3089,7 +3089,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/043ef3bc-15f0-4a00-a1c6-c31e1a8ee615"
-					(reference "#PWR033")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -3177,7 +3177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e9b51f8-813b-4397-8c11-091d642af345")
-		(property "Reference" "U4"
+		(property "Reference" "U6"
 			(at 140.208 88.9 0)
 			(effects
 				(font
@@ -3246,7 +3246,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/043ef3bc-15f0-4a00-a1c6-c31e1a8ee615"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3261,7 +3261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98f6f33c-fac4-4509-89b0-bdb92aebbad7")
-		(property "Reference" "R7"
+		(property "Reference" "R39"
 			(at 203.2 75.946 90)
 			(effects
 				(font
@@ -3313,7 +3313,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/043ef3bc-15f0-4a00-a1c6-c31e1a8ee615"
-					(reference "R7")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -3329,7 +3329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7de2261-2447-4acf-b342-081a1c5d463f")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR072"
 			(at 93.98 128.27 0)
 			(effects
 				(font
@@ -3379,7 +3379,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/043ef3bc-15f0-4a00-a1c6-c31e1a8ee615"
-					(reference "#PWR030")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -3394,7 +3394,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0db6a3f-c7b2-4b50-afef-905b249cd762")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 101.6 74.422 0)
 			(effects
 				(font
@@ -3491,7 +3491,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/043ef3bc-15f0-4a00-a1c6-c31e1a8ee615"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3507,7 +3507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e19d24b0-5622-4113-ba6d-d351f75891a2")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR073"
 			(at 101.6 128.27 0)
 			(effects
 				(font
@@ -3557,7 +3557,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/043ef3bc-15f0-4a00-a1c6-c31e1a8ee615"
-					(reference "#PWR031")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -3572,7 +3572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecd1683e-c0c7-4186-a27f-21a9105289a4")
-		(property "Reference" "R6"
+		(property "Reference" "R38"
 			(at 203.2 68.326 90)
 			(effects
 				(font
@@ -3624,7 +3624,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/043ef3bc-15f0-4a00-a1c6-c31e1a8ee615"
-					(reference "R6")
+					(reference "R38")
 					(unit 1)
 				)
 			)
