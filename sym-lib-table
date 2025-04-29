@@ -7,4 +7,5 @@
   (lib (name "nrf7002_module")(type "KiCad")(uri "${KIPRJMOD}/lib/PTR7002/nrf7002_module.kicad_sym")(options "")(descr ""))
   (lib (name "ecu_connector")(type "KiCad")(uri "${KIPRJMOD}/lib/ECU_CONNECTOR/ecu_connector.kicad_sym")(options "")(descr ""))
   (lib (name "G3VM-61VY2")(type "KiCad")(uri "${KIPRJMOD}/lib/G3VM-61VY2/G3VM-61VY2.kicad_sym")(options "")(descr ""))
+  (lib (name "W3000")(type "KiCad")(uri "${KIPRJMOD}/lib/W3000/W3000.kicad_sym")(options "")(descr ""))
 )

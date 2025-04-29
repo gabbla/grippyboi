@@ -2653,7 +2653,7 @@
 				)
 			)
 		)
-		(property "Value" "L_Ferrite_Coupled_1324"
+		(property "Value" "DLW31SH222SQ2"
 			(at 170.18 64.516 0)
 			(effects
 				(font
@@ -2661,7 +2661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DLW31SH222SQ2:DLW31SH222SQ2L"
 			(at 170.18 71.12 0)
 			(effects
 				(font
@@ -3486,7 +3486,7 @@
 				)
 			)
 		)
-		(property "Value" "L_Ferrite_Coupled_1324"
+		(property "Value" "DLW31SH222SQ2"
 			(at 170.18 119.126 0)
 			(effects
 				(font
@@ -3494,7 +3494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DLW31SH222SQ2:DLW31SH222SQ2L"
 			(at 170.18 125.73 0)
 			(effects
 				(font

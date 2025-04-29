@@ -4182,7 +4182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0edd89ab-d02d-487e-9fe3-ef6f2caf9b71")
-		(property "Reference" "D16"
+		(property "Reference" "D17"
 			(at 177.8 201.9299 0)
 			(effects
 				(font
@@ -4240,7 +4240,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "D16")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -4326,7 +4326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cc5836c-6b3b-4f41-af51-2c1a126707e2")
-		(property "Reference" "D15"
+		(property "Reference" "D16"
 			(at 146.05 201.9299 0)
 			(effects
 				(font
@@ -4384,7 +4384,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "D15")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -4400,7 +4400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25955846-41f0-4e5d-af47-2ba5852d317d")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0157"
 			(at 234.95 218.44 0)
 			(effects
 				(font
@@ -4450,7 +4450,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "#PWR0154")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -4599,7 +4599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "293a48c9-746b-4eee-b5c7-a0f4c6427fe8")
-		(property "Reference" "D18"
+		(property "Reference" "D19"
 			(at 241.3 201.9299 0)
 			(effects
 				(font
@@ -4657,7 +4657,75 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "D18")
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 106.68 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a289d0d-9496-4acc-9d30-25063b43d13f")
+		(property "Reference" "J10"
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V in"
+			(at 106.68 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 106.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 106.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "478034e0-ffc3-4b0b-847f-00f9292f4627")
+		)
+		(pin "2"
+			(uuid "524801b4-157b-4f81-9c67-0e6586323ff5")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -4673,7 +4741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48fff12a-50a0-4a1b-91d5-7a3e7b03834f")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR0154"
 			(at 139.7 218.44 0)
 			(effects
 				(font
@@ -4723,7 +4791,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "#PWR0151")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -4800,74 +4868,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 106.68 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "659405ae-d3bb-44ea-871c-542929b1692f")
-		(property "Reference" "J10"
-			(at 106.68 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12V In"
-			(at 106.68 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 106.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51a2e2f7-525c-468b-925c-4e4200465a67")
-		)
-		(pin "2"
-			(uuid "b5b21849-9514-492b-9433-73db138c4bb2")
-		)
-		(instances
-			(project "haldex_controller"
-				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:NUP2105L")
 		(at 203.2 203.2 0)
 		(unit 1)
@@ -4877,7 +4877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97c71956-5810-427a-aac4-93818aa5d5e2")
-		(property "Reference" "D17"
+		(property "Reference" "D18"
 			(at 209.55 201.9299 0)
 			(effects
 				(font
@@ -4935,7 +4935,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "D17")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -4966,7 +4966,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 95.25 121.92 0)
 			(effects
 				(font
@@ -5018,7 +5018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a82788c8-1097-47ed-8559-bd3c006217c8")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0153"
 			(at 118.11 54.61 0)
 			(effects
 				(font
@@ -5068,7 +5068,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "#PWR0150")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -5084,7 +5084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abac0645-dba9-4988-bc16-b65616f95803")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR0156"
 			(at 203.2 218.44 0)
 			(effects
 				(font
@@ -5134,7 +5134,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "#PWR0153")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -5150,7 +5150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba261558-9a21-4df7-9594-1d87ceac0e09")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0158"
 			(at 266.7 218.44 0)
 			(effects
 				(font
@@ -5200,7 +5200,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "#PWR0155")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -5216,7 +5216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8fce0e3-2491-4253-bf0d-d0c3881069ba")
-		(property "Reference" "D19"
+		(property "Reference" "D20"
 			(at 273.05 201.9299 0)
 			(effects
 				(font
@@ -5274,7 +5274,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "D19")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -5290,7 +5290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1abb80d-90f6-4c8d-9e23-5eeb0ff4d995")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0151"
 			(at 107.95 218.44 0)
 			(effects
 				(font
@@ -5340,7 +5340,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "#PWR0148")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -5356,7 +5356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0da2873-a578-4732-8ed1-7b9d64c11abb")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0159"
 			(at 298.45 218.44 0)
 			(effects
 				(font
@@ -5406,7 +5406,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "#PWR0156")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -5422,7 +5422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1d090b9-f5a7-4865-bef7-210f33ab59ec")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0150"
 			(at 88.9 120.65 0)
 			(effects
 				(font
@@ -5472,7 +5472,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "#PWR0147")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -5488,7 +5488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e48cfe34-11aa-4f24-8a1f-8e7713a07339")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR0155"
 			(at 171.45 218.44 0)
 			(effects
 				(font
@@ -5538,7 +5538,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "#PWR0152")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -5554,7 +5554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea60e5b6-99ed-46ca-979d-f1aed20617c3")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0149"
 			(at 86.36 218.44 0)
 			(effects
 				(font
@@ -5604,7 +5604,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "#PWR0146")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -5620,7 +5620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f779dbd7-81d9-4d40-ae1a-c5e0aaf22717")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0152"
 			(at 118.11 39.37 0)
 			(effects
 				(font
@@ -5670,7 +5670,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "#PWR0149")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -5686,7 +5686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7ff020f-d776-49c1-9538-227612716e84")
-		(property "Reference" "D14"
+		(property "Reference" "D15"
 			(at 114.3 201.9299 0)
 			(effects
 				(font
@@ -5744,7 +5744,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "D14")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -5760,7 +5760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb229fce-e61c-453a-b508-bb1814a64669")
-		(property "Reference" "D20"
+		(property "Reference" "D21"
 			(at 304.8 201.9299 0)
 			(effects
 				(font
@@ -5818,7 +5818,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/439b2486-c84e-4eca-9430-b0865af9ee5e"
-					(reference "D20")
+					(reference "D21")
 					(unit 1)
 				)
 			)

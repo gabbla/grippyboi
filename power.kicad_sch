@@ -2123,319 +2123,6 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "PMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "TPS62A02DRLR:TPS62A02DRLR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2860,6 +2547,337 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_FET:SiSS27DN"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SiSS27DN"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/62847/siss27dn.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-50A Id, -30V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Vishay*PowerPAK*1212*Single*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SiSS27DN_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SiSS27DN_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54) hide
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54) hide
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3831,7 +3849,7 @@
 		(uuid "896f19bc-e634-43e6-b421-f3450fa526eb")
 	)
 	(junction
-		(at 288.29 71.12)
+		(at 275.59 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a855f15-6246-4289-abfe-51125da679a5")
@@ -3913,6 +3931,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb68b6fa-add6-4b19-addf-8a8ff16afeff")
+	)
+	(no_connect
+		(at 193.04 146.05)
+		(uuid "fe092131-08a0-4c8e-837b-2c98a5375897")
 	)
 	(wire
 		(pts
@@ -3996,17 +4018,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 151.13) (xy 203.2 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e3fec48-1aca-42b9-a6e7-31cf4fee473b")
-	)
-	(wire
-		(pts
-			(xy 273.05 71.12) (xy 278.13 71.12)
+			(xy 260.35 71.12) (xy 265.43 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4376,7 +4388,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 71.12) (xy 295.91 71.12)
+			(xy 275.59 71.12) (xy 283.21 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4476,7 +4488,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 71.12) (xy 288.29 71.12)
+			(xy 270.51 71.12) (xy 275.59 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4503,16 +4515,6 @@
 			(type default)
 		)
 		(uuid "5e43f70a-21c2-436c-89ec-aefd7ccd85ce")
-	)
-	(wire
-		(pts
-			(xy 196.85 151.13) (xy 196.85 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62f6bb60-7b69-40bb-b2bd-e6438fb438bd")
 	)
 	(wire
 		(pts
@@ -4643,16 +4645,6 @@
 			(type default)
 		)
 		(uuid "795e9b6d-a406-4b87-a983-391b7ddfc171")
-	)
-	(wire
-		(pts
-			(xy 196.85 146.05) (xy 193.04 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b7e0671-e351-4883-937f-ceb9772aff48")
 	)
 	(wire
 		(pts
@@ -4826,7 +4818,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 62.23) (xy 283.21 62.23)
+			(xy 288.29 62.23) (xy 270.51 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4836,7 +4828,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 71.12) (xy 273.05 74.93)
+			(xy 260.35 71.12) (xy 260.35 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4886,7 +4878,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 71.12) (xy 288.29 74.93)
+			(xy 275.59 71.12) (xy 275.59 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5116,7 +5108,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 62.23) (xy 278.13 62.23)
+			(xy 236.22 62.23) (xy 265.43 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5293,6 +5285,16 @@
 			(type default)
 		)
 		(uuid "ff158d0a-92e0-4d00-9248-7509611a9b0e")
+	)
+	(text "5V output @1.4 kHz"
+		(exclude_from_sim no)
+		(at 210.312 122.936 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "186da945-9504-46a4-b10f-8f6b263c9a62")
 	)
 	(label "SW"
 		(at 210.82 195.58 0)
@@ -5520,7 +5522,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 288.29 74.93 0)
+		(at 275.59 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5529,7 +5531,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a781445-0835-420f-9863-44a5ac7e2817")
 		(property "Reference" "#PWR023"
-			(at 288.29 81.28 0)
+			(at 275.59 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,7 +5540,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 288.29 80.01 0)
+			(at 275.59 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +5548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 74.93 0)
+			(at 275.59 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,7 +5557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 74.93 0)
+			(at 275.59 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5564,7 +5566,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 288.29 74.93 0)
+			(at 275.59 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d305947-8b1f-40b4-82ab-da4ee1485e70")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 256.54 158.75 0)
 			(effects
 				(font
@@ -5644,7 +5646,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/86767b70-18e0-4c81-b43a-e2960c44587b"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5791,73 +5793,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 203.2 151.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13bdcfd9-d681-480b-b55e-63b0acb761e4")
-		(property "Reference" "TP3"
-			(at 208.28 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V PG"
-			(at 208.28 152.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 203.2 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 203.2 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91ee59a7-f1d3-40da-a1f4-96ac0e38724e")
-		)
-		(instances
-			(project "haldex_controller"
-				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/86767b70-18e0-4c81-b43a-e2960c44587b"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 233.68 203.2 180)
 		(unit 1)
@@ -5955,7 +5890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 251.46 186.69 0)
 			(effects
 				(font
@@ -6342,7 +6277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "362d4327-4e5b-4593-b1b6-5af2a7ab38b4")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 257.81 222.25 0)
 			(effects
 				(font
@@ -6392,7 +6327,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/86767b70-18e0-4c81-b43a-e2960c44587b"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6427,7 +6362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 363.22 200.66 0)
 			(effects
 				(font
@@ -6474,22 +6409,22 @@
 		(fields_autoplaced yes)
 		(uuid "46243351-70f5-4876-8b80-cb74d9092d34")
 		(property "Reference" "L2"
-			(at 220.98 130.81 90)
+			(at 220.98 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "15u"
-			(at 220.98 133.35 90)
+		(property "Value" "74438356022"
+			(at 220.98 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-4020"
 			(at 220.98 135.89 0)
 			(effects
 				(font
@@ -6600,7 +6535,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Ferrite_Small")
-		(at 280.67 71.12 90)
+		(at 267.97 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6608,23 +6543,23 @@
 		(dnp no)
 		(uuid "48a27923-7d2f-4f70-b0db-b13ba7cbb2db")
 		(property "Reference" "L4"
-			(at 280.67 66.04 90)
+			(at 267.97 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2u2"
-			(at 280.67 68.072 90)
+		(property "Value" "LQM2HPN2R2MG0L"
+			(at 267.97 68.072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 280.67 71.12 0)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder"
+			(at 267.97 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6633,7 +6568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 280.67 71.12 0)
+			(at 267.97 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +6577,7 @@
 			)
 		)
 		(property "Description" "Inductor with ferrite core, small symbol"
-			(at 280.67 71.12 0)
+			(at 267.97 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6667,7 +6602,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Ferrite_Small")
-		(at 280.67 62.23 90)
+		(at 267.97 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6676,23 +6611,23 @@
 		(fields_autoplaced yes)
 		(uuid "4a7a1b80-b1f7-487e-9c2b-f90eeb70cf2a")
 		(property "Reference" "L3"
-			(at 280.67 55.88 90)
+			(at 267.97 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2u2"
-			(at 280.67 58.42 90)
+		(property "Value" "LQM2HPN2R2MG0L"
+			(at 267.97 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 280.67 62.23 0)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder"
+			(at 267.97 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6701,7 +6636,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 280.67 62.23 0)
+			(at 267.97 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +6645,7 @@
 			)
 		)
 		(property "Description" "Inductor with ferrite core, small symbol"
-			(at 280.67 62.23 0)
+			(at 267.97 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6735,7 +6670,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 273.05 74.93 0)
+		(at 260.35 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6743,8 +6678,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cc09054-7e04-4293-b03b-9b83d8899685")
-		(property "Reference" "#PWR018"
-			(at 273.05 80.01 0)
+		(property "Reference" "#PWR021"
+			(at 260.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,7 +6688,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 272.923 78.74 0)
+			(at 260.223 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6761,7 +6696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 76.2 0)
+			(at 260.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,7 +6705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 76.2 0)
+			(at 260.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,7 +6714,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 273.05 74.93 0)
+			(at 260.35 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6793,7 +6728,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/86767b70-18e0-4c81-b43a-e2960c44587b"
-					(reference "#PWR018")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6809,7 +6744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5437efd1-0cfe-445d-bb1f-f3576bc99ab0")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 266.7 158.75 0)
 			(effects
 				(font
@@ -6859,7 +6794,7 @@
 		(instances
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/86767b70-18e0-4c81-b43a-e2960c44587b"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7096,7 +7031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 363.22 194.31 0)
 			(effects
 				(font
@@ -7487,7 +7422,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "MM5Z12V"
 			(at 201.93 72.3899 90)
 			(effects
 				(font
@@ -7496,7 +7431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 198.12 71.12 90)
 			(effects
 				(font
@@ -7605,105 +7540,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 231.14 64.77 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79f4d24b-316e-4f6e-870c-6be6024fd888")
-		(property "Reference" "Q3"
-			(at 231.14 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 231.14 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 218.44 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 231.14 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 213.995 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 212.09 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 215.9 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "778446ae-a776-4414-8fdd-d3d5d9075e17")
-		)
-		(pin "2"
-			(uuid "dab7b7c6-9a4b-4e92-ac2a-1b6b37b97e76")
-		)
-		(pin "1"
-			(uuid "a651a98a-117d-41c7-b8f1-98563c00087b")
-		)
-		(instances
-			(project "haldex_controller"
-				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/86767b70-18e0-4c81-b43a-e2960c44587b"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 160.02 212.09 90)
 		(unit 1)
@@ -7786,7 +7622,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24k"
+		(property "Value" "24k9"
 			(at 232.41 148.5899 0)
 			(effects
 				(font
@@ -7832,6 +7668,86 @@
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/86767b70-18e0-4c81-b43a-e2960c44587b"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:SiSS27DN")
+		(at 231.14 64.77 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f631b21-d2d4-4bfe-a3a7-4bf96832b133")
+		(property "Reference" "Q3"
+			(at 231.14 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Si7119DN"
+			(at 231.14 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 229.235 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/74251/si7119dn.pdf"
+			(at 227.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3A Id, -200V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
+			(at 231.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e14cd417-cb2f-4741-83d9-4e7030074994")
+		)
+		(pin "2"
+			(uuid "ae3f92c2-66c1-4d5c-8f37-31f88f5c537a")
+		)
+		(pin "3"
+			(uuid "ab01906a-d12e-446e-903d-60e7451d430b")
+		)
+		(pin "1"
+			(uuid "42cd9ad5-5e2f-407f-92e7-5b7eec78abbe")
+		)
+		(pin "5"
+			(uuid "ed0cba32-829c-4f33-b6b4-0d6b77cb6517")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/86767b70-18e0-4c81-b43a-e2960c44587b"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -8327,7 +8243,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "220n"
 			(at 154.94 142.2462 0)
 			(effects
 				(font
@@ -8470,7 +8386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOTFL50P160X60-6N"
+		(property "Footprint" "TPS62A02DRLR:SOTFL50P160X60-6N"
 			(at 204.47 290.5 0)
 			(effects
 				(font
@@ -8693,7 +8609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 354.33 194.31 0)
 			(effects
 				(font
@@ -8827,7 +8743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 251.46 127 0)
 			(effects
 				(font
@@ -9075,7 +8991,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 295.91 71.12 270)
+		(at 283.21 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9084,7 +9000,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab62b609-daa0-4158-97ee-29ca86dde51b")
 		(property "Reference" "#FLG06"
-			(at 297.815 71.12 0)
+			(at 285.115 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9093,7 +9009,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 299.72 71.1199 90)
+			(at 287.02 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9102,7 +9018,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 295.91 71.12 0)
+			(at 283.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9111,7 +9027,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 295.91 71.12 0)
+			(at 283.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9120,7 +9036,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 295.91 71.12 0)
+			(at 283.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9151,22 +9067,22 @@
 		(fields_autoplaced yes)
 		(uuid "ada5ac27-d4ce-4594-9d1c-bfc41b59967d")
 		(property "Reference" "L1"
-			(at 219.71 190.5 90)
+			(at 219.71 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1u"
-			(at 219.71 193.04 90)
+		(property "Value" "DFE252012F-1R0M=P2"
+			(at 219.71 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder"
 			(at 219.71 195.58 0)
 			(effects
 				(font
@@ -9788,7 +9704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 129.54 197.358 90)
 			(effects
 				(font
@@ -10140,7 +10056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
 			(at 182.88 161.29 0)
 			(effects
 				(font
@@ -10360,7 +10276,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 269.24 197.358 90)
 			(effects
 				(font
@@ -10566,7 +10482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
 			(at 151.13 83.82 0)
 			(effects
 				(font
@@ -10639,7 +10555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 157.48 127 0)
 			(effects
 				(font
@@ -10704,7 +10620,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 121.92 137.668 90)
 			(effects
 				(font
@@ -10772,7 +10688,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 278.13 137.668 90)
 			(effects
 				(font
@@ -10843,7 +10759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 354.33 200.66 0)
 			(effects
 				(font
