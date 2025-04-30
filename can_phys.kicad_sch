@@ -286,7 +286,7 @@
 				)
 			)
 		)
-		(symbol "Device:L_Ferrite_Coupled_1324"
+		(symbol "Device:L_Ferrite_Coupled_1243"
 			(pin_names
 				(offset 0.254) hide)
 			(exclude_from_sim no)
@@ -300,7 +300,7 @@
 					)
 				)
 			)
-			(property "Value" "L_Ferrite_Coupled_1324"
+			(property "Value" "L_Ferrite_Coupled_1243"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -353,7 +353,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_Ferrite_Coupled_1324_0_1"
+			(symbol "L_Ferrite_Coupled_1243_0_1"
 				(circle
 					(center -3.048 -1.27)
 					(radius 0.254)
@@ -689,7 +689,7 @@
 					)
 				)
 			)
-			(symbol "L_Ferrite_Coupled_1324_1_1"
+			(symbol "L_Ferrite_Coupled_1243_1_1"
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 2.54)
@@ -709,7 +709,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -727,7 +727,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "3"
 						(effects
@@ -745,7 +745,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "4"
 						(effects
@@ -2637,8 +2637,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Ferrite_Coupled_1324")
+		(lib_id "Device:L_Ferrite_Coupled_1243")
 		(at 170.18 71.12 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2646,7 +2647,7 @@
 		(dnp no)
 		(uuid "1c85f291-487b-4b8e-9624-87b582648bde")
 		(property "Reference" "L7"
-			(at 170.18 62.23 0)
+			(at 170.18 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2654,7 +2655,7 @@
 			)
 		)
 		(property "Value" "DLW31SH222SQ2"
-			(at 170.18 64.516 0)
+			(at 170.18 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,7 +2671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/281/DLW31SH222SQ2_23-1915424.pdf"
 			(at 170.18 71.12 0)
 			(effects
 				(font
@@ -3470,8 +3471,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Ferrite_Coupled_1324")
+		(lib_id "Device:L_Ferrite_Coupled_1243")
 		(at 170.18 125.73 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3479,7 +3481,7 @@
 		(dnp no)
 		(uuid "b72a53a4-8d39-4ad6-8187-1d73da919f86")
 		(property "Reference" "L8"
-			(at 170.18 116.84 0)
+			(at 170.18 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +3489,7 @@
 			)
 		)
 		(property "Value" "DLW31SH222SQ2"
-			(at 170.18 119.126 0)
+			(at 170.18 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,7 +3505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/281/DLW31SH222SQ2_23-1915424.pdf"
 			(at 170.18 125.73 0)
 			(effects
 				(font
