@@ -3615,16 +3615,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb96")
+			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb97")
 		)
 		(pin "4"
-			(uuid "334eaa5f-44e6-441d-8846-9b772f18674b")
+			(uuid "334eaa5f-44e6-441d-8846-9b772f18674c")
 		)
 		(pin "2"
-			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b20")
+			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b21")
 		)
 		(pin "1"
-			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e863237e")
+			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e863237f")
 		)
 		(instances
 			(project "haldex_controller"
@@ -4019,16 +4019,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb96")
+			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb98")
 		)
 		(pin "4"
-			(uuid "334eaa5f-44e6-441d-8846-9b772f18674b")
+			(uuid "334eaa5f-44e6-441d-8846-9b772f18674d")
 		)
 		(pin "2"
-			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b20")
+			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b22")
 		)
 		(pin "1"
-			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e863237e")
+			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e8632380")
 		)
 		(instances
 			(project "haldex_controller"
@@ -4427,16 +4427,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb96")
+			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb99")
 		)
 		(pin "4"
-			(uuid "334eaa5f-44e6-441d-8846-9b772f18674b")
+			(uuid "334eaa5f-44e6-441d-8846-9b772f18674e")
 		)
 		(pin "2"
-			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b20")
+			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b23")
 		)
 		(pin "1"
-			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e863237e")
+			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e8632381")
 		)
 		(instances
 			(project "haldex_controller"
@@ -4931,16 +4931,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb96")
+			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb9a")
 		)
 		(pin "4"
-			(uuid "334eaa5f-44e6-441d-8846-9b772f18674b")
+			(uuid "334eaa5f-44e6-441d-8846-9b772f18674f")
 		)
 		(pin "2"
-			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b20")
+			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b24")
 		)
 		(pin "1"
-			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e863237e")
+			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e8632382")
 		)
 		(instances
 			(project "haldex_controller"
@@ -5005,16 +5005,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb96")
+			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb9b")
 		)
 		(pin "4"
-			(uuid "334eaa5f-44e6-441d-8846-9b772f18674b")
+			(uuid "334eaa5f-44e6-441d-8846-9b772f186750")
 		)
 		(pin "2"
-			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b20")
+			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b25")
 		)
 		(pin "1"
-			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e863237e")
+			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e8632383")
 		)
 		(instances
 			(project "haldex_controller"
@@ -5571,16 +5571,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb96")
+			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb9c")
 		)
 		(pin "4"
-			(uuid "334eaa5f-44e6-441d-8846-9b772f18674b")
+			(uuid "334eaa5f-44e6-441d-8846-9b772f186751")
 		)
 		(pin "2"
-			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b20")
+			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b26")
 		)
 		(pin "1"
-			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e863237e")
+			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e8632384")
 		)
 		(instances
 			(project "haldex_controller"
@@ -7621,16 +7621,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb96")
+			(uuid "6ce4c087-85ed-4147-b278-2b002c1fcb9d")
 		)
 		(pin "4"
-			(uuid "334eaa5f-44e6-441d-8846-9b772f18674b")
+			(uuid "334eaa5f-44e6-441d-8846-9b772f186752")
 		)
 		(pin "2"
-			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b20")
+			(uuid "90e7a0c0-4577-4cb9-9839-d18ca4bb2b27")
 		)
 		(pin "1"
-			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e863237e")
+			(uuid "7ac9f1da-9494-46c0-b7c7-59a5e8632385")
 		)
 		(instances
 			(project "haldex_controller"

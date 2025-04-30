@@ -4481,7 +4481,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ecu24:ecu24"
 			(at 81.28 118.11 0)
 			(effects
 				(font
