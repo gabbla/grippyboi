@@ -1,0 +1,143 @@
+(footprint "1YN_ANTENNA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.6162 -6.2738 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "53b93f3a-f244-4cf3-9e13-f402b75dc13b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1YN_ANTENNA"
+		(at 5.8166 -4.6242 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c0740ac5-19e2-498f-a789-497518e1512b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "197d7021-dd94-44fd-b2bb-500f5aaf9edc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f0b48b6-27d2-4619-963f-498e7ab030ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf68db3f-ccb6-4996-98c9-0fe36f5762a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(arc
+				(start 10.7548 -7.1374)
+				(mid 10.790155 -7.152045)
+				(end 10.8048 -7.1874)
+			)
+			(arc
+				(start 10.8048 -7.5874)
+				(mid 10.790155 -7.622755)
+				(end 10.7548 -7.6374)
+			)
+			(arc
+				(start -0.1452 -7.6374)
+				(mid -0.180555 -7.622755)
+				(end -0.1952 -7.5874)
+			)
+			(arc
+				(start -0.1952 0.1626)
+				(mid -0.180555 0.197955)
+				(end -0.1452 0.2126)
+			)
+			(arc
+				(start 0.4048 0.2126)
+				(mid 0.440155 0.197955)
+				(end 0.4548 0.1626)
+			)
+			(arc
+				(start 0.4548 -0.2874)
+				(mid 0.440155 -0.322755)
+				(end 0.4048 -0.3374)
+			)
+			(xy 0.3048 -0.3374) (xy 0.3048 -7.1374)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "6d3934af-77ce-4788-8946-f6512039a365")
+	)
+	(fp_arc
+		(start -19.79171 13.39631)
+		(mid -70.448178 45.093802)
+		(end -19.79131 13.396262)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "5fe4078f-0848-452e-8d1e-5db1a5510753")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.8166 -3.1242 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b8ac8f4d-0284-4235-b3f7-bcc628ecd98b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.127 -0.0624 180)
+		(size 0.65 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.09090909091)
+		(thermal_bridge_angle 45)
+		(uuid "4d401619-517d-4c09-8059-5f06f2f58318")
+	)
+)
