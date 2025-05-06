@@ -6107,6 +6107,12 @@
 		(uuid "c0e0e26f-b9b1-42c7-9c42-da6b4586e503")
 	)
 	(junction
+		(at 207.01 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6bc3ebb-7289-4e4d-ae74-50ee2609b459")
+	)
+	(junction
 		(at 295.91 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6177,8 +6183,12 @@
 		(uuid "44e83fe8-1e92-4206-bddb-31df4005d87e")
 	)
 	(no_connect
-		(at 114.3 88.9)
-		(uuid "6ce33f96-478e-4f36-8154-853e6d80a3c0")
+		(at 114.3 83.82)
+		(uuid "5d76a951-fc34-4d20-bc71-ed6bdd49cb1c")
+	)
+	(no_connect
+		(at 167.64 119.38)
+		(uuid "60ed26cb-7768-40c6-89b8-a475cb0ea8a0")
 	)
 	(no_connect
 		(at 167.64 175.26)
@@ -6187,10 +6197,6 @@
 	(no_connect
 		(at 255.27 259.08)
 		(uuid "7c3d7b1b-2910-486f-9885-6522d6bc961e")
-	)
-	(no_connect
-		(at 114.3 83.82)
-		(uuid "a3357568-c763-4411-8d71-7be9f36d2fa4")
 	)
 	(no_connect
 		(at 158.75 259.08)
@@ -6588,6 +6594,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 88.9) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df280fc-d8ba-4e89-bd1b-da627b1bd6db")
+	)
+	(wire
+		(pts
 			(xy 167.64 63.5) (xy 214.63 63.5)
 		)
 		(stroke
@@ -6895,6 +6911,16 @@
 			(type default)
 		)
 		(uuid "366bd9bd-3562-40f0-918c-bfd5b9883f03")
+	)
+	(wire
+		(pts
+			(xy 218.44 27.94) (xy 207.01 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37158457-6891-41e8-91e1-986ae4e2167e")
 	)
 	(wire
 		(pts
@@ -7638,6 +7664,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 30.48) (xy 218.44 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749a1c91-1184-41d9-9fb4-f1052446e2d9")
+	)
+	(wire
+		(pts
 			(xy 377.19 128.27) (xy 377.19 132.08)
 		)
 		(stroke
@@ -7685,16 +7721,6 @@
 			(type default)
 		)
 		(uuid "767f57eb-8872-483e-9b92-027125901b02")
-	)
-	(wire
-		(pts
-			(xy 167.64 119.38) (xy 198.12 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7755574c-db67-43e1-b2fd-f33e37a48314")
 	)
 	(wire
 		(pts
@@ -7985,6 +8011,16 @@
 			(type default)
 		)
 		(uuid "9065fb09-0807-4548-be79-51934161f2f7")
+	)
+	(wire
+		(pts
+			(xy 218.44 35.56) (xy 218.44 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91fbdb02-f68c-4ced-84d0-b00b2312d2c5")
 	)
 	(wire
 		(pts
@@ -9467,7 +9503,7 @@
 		(uuid "1970fcc9-003d-4fa7-9997-700e10b8ee23")
 	)
 	(label "LED1"
-		(at 340.36 60.96 180)
+		(at 340.36 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9478,7 +9514,7 @@
 		(uuid "23cc8206-5a67-4f6a-862c-0e62c2d6312f")
 	)
 	(label "LED_BODY_TX"
-		(at 340.36 43.18 180)
+		(at 340.36 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9566,7 +9602,7 @@
 		(uuid "4ded82d3-dabd-4990-bd43-0c63a2fe481d")
 	)
 	(label "LED_HLDX_ERR"
-		(at 340.36 55.88 180)
+		(at 340.36 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9577,7 +9613,7 @@
 		(uuid "506a32f8-4df4-41b5-ac63-d2d429ae9262")
 	)
 	(label "LED_HLDX_RX"
-		(at 340.36 53.34 180)
+		(at 340.36 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9742,7 +9778,7 @@
 		(uuid "710975e4-50ff-484d-992a-918bb7d996c6")
 	)
 	(label "DIP_4"
-		(at 83.82 162.56 0)
+		(at 83.82 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9929,7 +9965,7 @@
 		(uuid "a1510c8d-0e6f-4e6d-864d-f1135ce3c13c")
 	)
 	(label "LED_HLDX_TX"
-		(at 340.36 50.8 180)
+		(at 340.36 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9995,7 +10031,7 @@
 		(uuid "cb65ca6a-b794-4abe-acae-a485b3adb777")
 	)
 	(label "DIP_3"
-		(at 83.82 160.02 0)
+		(at 83.82 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10072,7 +10108,7 @@
 		(uuid "da08d774-632e-4c4a-a4fd-94b35c281104")
 	)
 	(label "LED0"
-		(at 340.36 58.42 180)
+		(at 340.36 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10083,7 +10119,7 @@
 		(uuid "dbec319c-3715-4dfd-8cf1-47c2b6783e91")
 	)
 	(label "LED_BODY_RX"
-		(at 340.36 45.72 180)
+		(at 340.36 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10698,13 +10734,13 @@
 	)
 	(hierarchical_label "HLDX_CAN_S"
 		(shape input)
-		(at 198.12 119.38 0)
+		(at 82.55 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ee4b3524-9849-49b5-befc-305831934077")
 	)
@@ -11056,7 +11092,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 381 21.59 180)
+		(at 394.97 21.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11064,7 +11100,7 @@
 		(dnp no)
 		(uuid "12573fb0-c574-4961-80c6-3410e538311e")
 		(property "Reference" "D5"
-			(at 381 17.018 0)
+			(at 394.97 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11072,7 +11108,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 381 19.304 0)
+			(at 394.97 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11080,7 +11116,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 381 21.59 90)
+			(at 394.97 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11089,7 +11125,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381 21.59 90)
+			(at 394.97 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11098,7 +11134,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 381 21.59 0)
+			(at 394.97 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11123,7 +11159,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 381 67.31 180)
+		(at 394.97 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11131,7 +11167,7 @@
 		(dnp no)
 		(uuid "1268c221-1013-4597-80ae-7bd8e31b0161")
 		(property "Reference" "D11"
-			(at 381 62.738 0)
+			(at 394.97 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11139,7 +11175,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 381 65.024 0)
+			(at 394.97 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11147,7 +11183,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 381 67.31 90)
+			(at 394.97 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11156,7 +11192,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381 67.31 90)
+			(at 394.97 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11165,7 +11201,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 381 67.31 0)
+			(at 394.97 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12284,7 +12320,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 394.97 36.83 90)
+		(at 381 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12292,7 +12328,7 @@
 		(dnp no)
 		(uuid "2ea7926b-0f90-4d49-81f9-f91d3ac2036f")
 		(property "Reference" "R32"
-			(at 394.716 32.512 90)
+			(at 380.746 32.512 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12300,7 +12336,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 394.97 34.544 90)
+			(at 381 34.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12308,7 +12344,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 394.97 36.83 0)
+			(at 381 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12317,7 +12353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 394.97 36.83 0)
+			(at 381 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12326,7 +12362,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 394.97 36.83 0)
+			(at 381 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12549,7 +12585,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 381 29.21 180)
+		(at 394.97 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12557,7 +12593,7 @@
 		(dnp no)
 		(uuid "368202a8-c336-46de-ae2e-dfa16f674f7d")
 		(property "Reference" "D6"
-			(at 381 24.638 0)
+			(at 394.97 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12565,7 +12601,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 381 26.924 0)
+			(at 394.97 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12573,7 +12609,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 381 29.21 90)
+			(at 394.97 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12582,7 +12618,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381 29.21 90)
+			(at 394.97 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12591,7 +12627,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 381 29.21 0)
+			(at 394.97 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12682,7 +12718,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 381 52.07 180)
+		(at 394.97 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12690,7 +12726,7 @@
 		(dnp no)
 		(uuid "3ae69a21-c3ab-46f3-a395-81052aa51753")
 		(property "Reference" "D9"
-			(at 381 47.498 0)
+			(at 394.97 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12698,7 +12734,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 381 49.784 0)
+			(at 394.97 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12706,7 +12742,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 381 52.07 90)
+			(at 394.97 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12715,7 +12751,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381 52.07 90)
+			(at 394.97 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12724,7 +12760,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 381 52.07 0)
+			(at 394.97 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13320,7 +13356,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 381 44.45 180)
+		(at 394.97 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13328,7 +13364,7 @@
 		(dnp no)
 		(uuid "471b0105-4c6b-4985-88cd-13c6256483db")
 		(property "Reference" "D8"
-			(at 381 39.878 0)
+			(at 394.97 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13336,7 +13372,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 381 42.164 0)
+			(at 394.97 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13344,7 +13380,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 381 44.45 90)
+			(at 394.97 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13353,7 +13389,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381 44.45 90)
+			(at 394.97 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13362,7 +13398,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 381 44.45 0)
+			(at 394.97 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13387,7 +13423,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 381 74.93 180)
+		(at 394.97 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13395,7 +13431,7 @@
 		(dnp no)
 		(uuid "484504f3-b20e-4ea9-8cfc-5388dedb81ca")
 		(property "Reference" "D12"
-			(at 381 70.358 0)
+			(at 394.97 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13403,7 +13439,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 381 72.644 0)
+			(at 394.97 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13411,7 +13447,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 381 74.93 90)
+			(at 394.97 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13420,7 +13456,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381 74.93 90)
+			(at 394.97 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13429,7 +13465,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 381 74.93 0)
+			(at 394.97 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13879,7 +13915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
 			(at 36.83 53.34 0)
 			(effects
 				(font
@@ -13923,7 +13959,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 394.97 67.31 90)
+		(at 381 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13931,7 +13967,7 @@
 		(dnp no)
 		(uuid "57c93a38-4ef3-4d11-bedb-0b3947a12e16")
 		(property "Reference" "R36"
-			(at 394.716 62.992 90)
+			(at 380.746 62.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13939,7 +13975,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 394.97 65.024 90)
+			(at 381 65.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13947,7 +13983,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 394.97 67.31 0)
+			(at 381 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13956,7 +13992,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 394.97 67.31 0)
+			(at 381 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13965,7 +14001,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 394.97 67.31 0)
+			(at 381 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14216,7 +14252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 360.68 163.83 0)
 			(effects
 				(font
@@ -14905,6 +14941,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 218.44 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c8223c7-3cc3-4d5e-9c9f-9cc5bd8ae309")
+		(property "Reference" "C50"
+			(at 220.98 31.7562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 220.98 34.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 218.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 218.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b620b1a9-6f43-46b5-a93a-51ba6f99c49c")
+		)
+		(pin "1"
+			(uuid "6f1bb2dd-3a29-4c78-b18b-5edf67aebcc0")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/cddbfdcc-d322-4bb2-88f3-63a5530c650a"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 265.43 0)
 		(unit 1)
@@ -15378,7 +15484,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 394.97 59.69 90)
+		(at 381 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15386,7 +15492,7 @@
 		(dnp no)
 		(uuid "94dce63e-c096-4af0-ad09-b6a6776f5e06")
 		(property "Reference" "R35"
-			(at 394.716 55.372 90)
+			(at 380.746 55.372 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15394,7 +15500,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 394.97 57.404 90)
+			(at 381 57.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15402,7 +15508,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 394.97 59.69 0)
+			(at 381 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15411,7 +15517,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 394.97 59.69 0)
+			(at 381 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15420,7 +15526,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 394.97 59.69 0)
+			(at 381 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15445,7 +15551,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 394.97 44.45 90)
+		(at 381 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15453,7 +15559,7 @@
 		(dnp no)
 		(uuid "9571705a-8778-428e-a61d-573aa0a8e1af")
 		(property "Reference" "R33"
-			(at 394.716 40.132 90)
+			(at 380.746 40.132 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15461,7 +15567,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 394.97 42.164 90)
+			(at 381 42.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15469,7 +15575,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 394.97 44.45 0)
+			(at 381 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15478,7 +15584,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 394.97 44.45 0)
+			(at 381 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15487,7 +15593,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 394.97 44.45 0)
+			(at 381 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15966,7 +16072,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 381 36.83 180)
+		(at 394.97 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15974,7 +16080,7 @@
 		(dnp no)
 		(uuid "b83187b5-2b67-497a-9ac5-6e1386209e6c")
 		(property "Reference" "D7"
-			(at 381 32.258 0)
+			(at 394.97 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15982,7 +16088,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 381 34.544 0)
+			(at 394.97 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15990,7 +16096,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 381 36.83 90)
+			(at 394.97 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15999,7 +16105,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381 36.83 90)
+			(at 394.97 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16008,7 +16114,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 381 36.83 0)
+			(at 394.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16099,7 +16205,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 381 59.69 180)
+		(at 394.97 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16107,7 +16213,7 @@
 		(dnp no)
 		(uuid "bd3ff5a8-acc2-40d5-b193-f9323e551d05")
 		(property "Reference" "D10"
-			(at 381 55.118 0)
+			(at 394.97 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16115,7 +16221,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 381 57.404 0)
+			(at 394.97 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16123,7 +16229,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 381 59.69 90)
+			(at 394.97 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16132,7 +16238,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381 59.69 90)
+			(at 394.97 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16141,7 +16247,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 381 59.69 0)
+			(at 394.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16232,7 +16338,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 394.97 21.59 90)
+		(at 381 21.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16240,7 +16346,7 @@
 		(dnp no)
 		(uuid "c1aec7f4-b6ca-4335-b793-7e59aa69d99d")
 		(property "Reference" "R30"
-			(at 394.716 17.272 90)
+			(at 380.746 17.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16248,7 +16354,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 394.97 19.304 90)
+			(at 381 19.304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16256,7 +16362,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 394.97 21.59 0)
+			(at 381 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16265,7 +16371,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 394.97 21.59 0)
+			(at 381 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16274,7 +16380,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 394.97 21.59 0)
+			(at 381 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16502,7 +16608,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 394.97 52.07 90)
+		(at 381 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16510,7 +16616,7 @@
 		(dnp no)
 		(uuid "cbdbcfbe-3af1-47e0-a0f1-1f983e92722c")
 		(property "Reference" "R34"
-			(at 394.716 47.752 90)
+			(at 380.746 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16518,7 +16624,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 394.97 49.784 90)
+			(at 381 49.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16526,7 +16632,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 394.97 52.07 0)
+			(at 381 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16535,7 +16641,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 394.97 52.07 0)
+			(at 381 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16544,7 +16650,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 394.97 52.07 0)
+			(at 381 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16698,6 +16804,72 @@
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/cddbfdcc-d322-4bb2-88f3-63a5530c650a"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d294e451-8d47-4a88-910a-2c7728222edd")
+		(property "Reference" "#PWR0162"
+			(at 218.44 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18a58f14-161e-4f2f-ad59-d88d7a0e690d")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/cddbfdcc-d322-4bb2-88f3-63a5530c650a"
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -17181,7 +17353,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 394.97 29.21 90)
+		(at 381 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17189,7 +17361,7 @@
 		(dnp no)
 		(uuid "e287d515-5fa0-42c9-978b-95eada66f86b")
 		(property "Reference" "R31"
-			(at 394.716 24.892 90)
+			(at 380.746 24.892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17197,7 +17369,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 394.97 26.924 90)
+			(at 381 26.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17205,7 +17377,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 394.97 29.21 0)
+			(at 381 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17214,7 +17386,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 394.97 29.21 0)
+			(at 381 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17223,7 +17395,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 394.97 29.21 0)
+			(at 381 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17956,7 +18128,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 394.97 74.93 90)
+		(at 381 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17964,7 +18136,7 @@
 		(dnp no)
 		(uuid "fcfd3a9a-814f-4bd4-9473-2415f1935cf0")
 		(property "Reference" "R37"
-			(at 394.716 70.612 90)
+			(at 380.746 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17972,7 +18144,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 394.97 72.644 90)
+			(at 381 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17980,7 +18152,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 394.97 74.93 0)
+			(at 381 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17989,7 +18161,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 394.97 74.93 0)
+			(at 381 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17998,7 +18170,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 394.97 74.93 0)
+			(at 381 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)

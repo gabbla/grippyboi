@@ -10,4 +10,6 @@
   (lib (name "MCZ1210AH900L2TA0G")(type "KiCad")(uri "${KIPRJMOD}/lib/MCZ1210AH900L2TA0G")(options "")(descr ""))
   (lib (name "ecu24")(type "KiCad")(uri "${KIPRJMOD}/lib/ECU_CONNECTOR/ecu24.pretty")(options "")(descr ""))
   (lib (name "W3000")(type "KiCad")(uri "${KIPRJMOD}/lib/W3000")(options "")(descr ""))
+  (lib (name "MM8130-2600RA2")(type "KiCad")(uri "${KIPRJMOD}/lib/MM8130-2600RA2")(options "")(descr ""))
+  (lib (name "1yn_antenna")(type "KiCad")(uri "${KIPRJMOD}/lib/1yn_antenna/1yn_antenna.pretty")(options "")(descr ""))
 )

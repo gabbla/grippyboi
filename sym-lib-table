@@ -8,4 +8,5 @@
   (lib (name "ecu_connector")(type "KiCad")(uri "${KIPRJMOD}/lib/ECU_CONNECTOR/ecu_connector.kicad_sym")(options "")(descr ""))
   (lib (name "G3VM-61VY2")(type "KiCad")(uri "${KIPRJMOD}/lib/G3VM-61VY2/G3VM-61VY2.kicad_sym")(options "")(descr ""))
   (lib (name "W3000")(type "KiCad")(uri "${KIPRJMOD}/lib/W3000/W3000.kicad_sym")(options "")(descr ""))
+  (lib (name "MM8130-2600RA2")(type "KiCad")(uri "${KIPRJMOD}/lib/MM8130-2600RA2/MM8130-2600RA2.kicad_sym")(options "")(descr ""))
 )
