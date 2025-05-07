@@ -33,3 +33,4 @@ fp-info-cache
 # Produciton files
 production/
 fabrication-toolkit-options.json
+*.pdf
