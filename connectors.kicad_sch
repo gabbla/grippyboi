@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Connector")
-		(date "2025-04-29")
-		(rev "v0.1.0")
+		(date "2025-05-07")
+		(rev "v1.0.0")
 		(company "github.com/gabbla")
 		(comment 1 "${PROJECTNAME}")
 	)
@@ -2573,7 +2573,8 @@
 		(uuid "ff2ac60b-eeb0-4da9-81ef-2f216e31c0a6")
 	)
 	(image
-		(at 220.98 43.815)
+		(at 240.03 51.435)
+		(scale 2.86313)
 		(uuid "57f1bee6-83a8-43b5-af47-c1d03dab9a58")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA64AAAEoCAYAAABYcKyeAAAYKmlDQ1BpY20AAFjDlVkFVFTdtz93"
 			"7gQDM3R3d3dId0k3CsNQQ0uDICkKqGChAoKUiJRggIgICCiKIiEgGICioqgYKEq9C6jf/33vrfXW"
@@ -4880,10 +4881,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5db0ad7-5103-480e-acc8-11deaa975950")
+			(uuid "e5db0ad7-5103-480e-acc8-11deaa975951")
 		)
 		(pin "2"
-			(uuid "f24860da-fa13-4c2c-add4-bd323a705eeb")
+			(uuid "f24860da-fa13-4c2c-add4-bd323a705eec")
 		)
 		(instances
 			(project "haldex_controller"
@@ -4948,10 +4949,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5db0ad7-5103-480e-acc8-11deaa975950")
+			(uuid "e5db0ad7-5103-480e-acc8-11deaa975952")
 		)
 		(pin "2"
-			(uuid "f24860da-fa13-4c2c-add4-bd323a705eeb")
+			(uuid "f24860da-fa13-4c2c-add4-bd323a705eed")
 		)
 		(instances
 			(project "haldex_controller"

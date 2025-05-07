@@ -5,8 +5,8 @@
 	(uuid "f9b060b2-b7a5-478e-9a0d-346ba4acb11f")
 	(paper "A3")
 	(title_block
-		(date "2025-04-29")
-		(rev "v0.1.0")
+		(date "2025-05-07")
+		(rev "v1.0.0")
 		(company "github.com/gabbla")
 		(comment 1 "${PROJECTNAME}")
 	)
