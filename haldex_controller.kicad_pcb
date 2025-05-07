@@ -50666,6 +50666,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "v1.0.0"
+		(at 110.49 65.786 0)
+		(layer "F.SilkS")
+		(uuid "734d937c-3ebb-4eb1-ac57-9480c38bc481")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "120R"
 		(at 109.093 120.142 0)
 		(layer "F.SilkS" knockout)
@@ -50728,7 +50740,7 @@
 		)
 	)
 	(gr_text "github.com/gabbla/grippyboi"
-		(at 104.394 59.309 0)
+		(at 104.394 59.563 0)
 		(layer "F.SilkS")
 		(uuid "d4d937f9-9f24-46d1-8914-a2a8902e6d66")
 		(effects
