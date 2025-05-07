@@ -5987,6 +5987,12 @@
 		(uuid "772373c6-f579-41bc-a65a-82aa17764f01")
 	)
 	(junction
+		(at 218.44 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7940b604-c00d-40b9-a595-fe03a411d518")
+	)
+	(junction
 		(at 295.91 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7304,6 +7310,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 35.56) (xy 229.87 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a7c26b-d008-4459-ba5c-2fb60f696925")
+	)
+	(wire
+		(pts
 			(xy 171.45 254) (xy 194.31 254)
 		)
 		(stroke
@@ -8604,6 +8620,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 27.94) (xy 218.44 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c457f2f2-1ea2-43f9-b242-cd25292b884a")
+	)
+	(wire
+		(pts
 			(xy 321.31 58.42) (xy 340.36 58.42)
 		)
 		(stroke
@@ -8681,6 +8707,16 @@
 			(type default)
 		)
 		(uuid "cc917157-0395-4f69-8b1e-18eb1a2c6011")
+	)
+	(wire
+		(pts
+			(xy 229.87 30.48) (xy 229.87 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4d2e29-706e-4e5a-8525-c987a84b55d2")
 	)
 	(wire
 		(pts
@@ -16272,6 +16308,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 229.87 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c186620f-5712-478b-8b30-d69b8f6055f7")
+		(property "Reference" "#PWR079"
+			(at 229.87 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecaffd26-b383-488e-a4fe-e6f0708c66ed")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/cddbfdcc-d322-4bb2-88f3-63a5530c650a"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 207.01 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17210,6 +17312,76 @@
 			(project "haldex_controller"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/cddbfdcc-d322-4bb2-88f3-63a5530c650a"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 229.87 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbd8c31e-c64d-4279-8acb-ad39aeff4345")
+		(property "Reference" "C27"
+			(at 232.41 31.7562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 232.41 34.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 229.87 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 229.87 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a40888af-469c-4977-93e5-0a047113f8d7")
+		)
+		(pin "1"
+			(uuid "7705c8ca-6091-464f-a5f1-66df8a949241")
+		)
+		(instances
+			(project "haldex_controller"
+				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/cddbfdcc-d322-4bb2-88f3-63a5530c650a"
+					(reference "C27")
 					(unit 1)
 				)
 			)
