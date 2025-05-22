@@ -2356,7 +2356,7 @@
 			(uuid "08fdcc8f-d6f1-433e-8bbc-6d4c937bcaaf")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "C38")
 					(unit 1)
@@ -2426,7 +2426,7 @@
 			(uuid "67e21dd9-aa12-4fac-9fc1-d01f8937242e")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "R53")
 					(unit 1)
@@ -2494,7 +2494,7 @@
 			(uuid "510c4084-375c-4b11-a160-64bc73290195")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "C39")
 					(unit 1)
@@ -2560,7 +2560,7 @@
 			(uuid "dc30c79e-c8a2-4bea-9f91-e7ec682b08de")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "#PWR0108")
 					(unit 1)
@@ -2628,7 +2628,7 @@
 			(uuid "ed163b5e-0d1e-409f-84db-0ee36b5071e5")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "C42")
 					(unit 1)
@@ -2702,7 +2702,7 @@
 			(uuid "924feb74-cc7f-4ad3-9d3b-a28567c8dd1f")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "L7")
 					(unit 1)
@@ -2790,7 +2790,7 @@
 			(uuid "4ab1cdae-b2ab-4ff8-832c-5f63eeff4ce9")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "U9")
 					(unit 1)
@@ -2860,7 +2860,7 @@
 			(uuid "780634d0-0e61-42d9-9c0f-275a5a990f3b")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "R51")
 					(unit 1)
@@ -2930,7 +2930,7 @@
 			(uuid "c72e1b80-9c6e-4c25-ac85-f7b326d53a29")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "R52")
 					(unit 1)
@@ -2996,7 +2996,7 @@
 			(uuid "747f3970-3041-4242-a239-459ace904bee")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "#PWR0113")
 					(unit 1)
@@ -3062,7 +3062,7 @@
 			(uuid "bf323744-2f14-46d0-989c-743e2c9f2a98")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "#PWR0107")
 					(unit 1)
@@ -3132,7 +3132,7 @@
 			(uuid "7eb5bef3-dbfd-4103-b148-c969a469e445")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "R54")
 					(unit 1)
@@ -3198,7 +3198,7 @@
 			(uuid "9e4c2339-2438-4173-a309-0290b0617ea8")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "#PWR0116")
 					(unit 1)
@@ -3264,7 +3264,7 @@
 			(uuid "ac15dc19-e3fc-4387-9bbb-ab10cbecbb61")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "#PWR0111")
 					(unit 1)
@@ -3330,7 +3330,7 @@
 			(uuid "c22c2fd2-8ec1-4f90-896b-3fcca910d2df")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "#PWR0118")
 					(unit 1)
@@ -3396,7 +3396,7 @@
 			(uuid "237a2c7d-ab93-4971-9a72-b71d07c42688")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "#PWR0112")
 					(unit 1)
@@ -3462,7 +3462,7 @@
 			(uuid "5f1d6064-9150-4fdc-8b0b-ef9bb5420ad5")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "#PWR0115")
 					(unit 1)
@@ -3536,7 +3536,7 @@
 			(uuid "b673b322-f6ec-41eb-9753-08161638c41a")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "L8")
 					(unit 1)
@@ -3602,7 +3602,7 @@
 			(uuid "ebcd45fe-1be9-4839-9243-e8ba6414d46d")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "#PWR0109")
 					(unit 1)
@@ -3672,7 +3672,7 @@
 			(uuid "bd44588c-501c-4b17-bfd8-04ad67d0a136")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "J8")
 					(unit 1)
@@ -3760,7 +3760,7 @@
 			(uuid "6b07f4cc-d06b-474f-9668-fa8e022a1308")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "U8")
 					(unit 1)
@@ -3826,7 +3826,7 @@
 			(uuid "09a7ffb2-bacc-40c9-b43a-3cf20905128b")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "#PWR0110")
 					(unit 1)
@@ -3892,7 +3892,7 @@
 			(uuid "f3c0f409-ab91-4d6c-ae89-1835d7d90892")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "#PWR0117")
 					(unit 1)
@@ -3958,7 +3958,7 @@
 			(uuid "589ff3e6-c778-44fc-bd4d-6e81a2aec394")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "#PWR0114")
 					(unit 1)
@@ -4026,7 +4026,7 @@
 			(uuid "f6daf60e-9c94-4377-98bd-de6406608e65")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "C41")
 					(unit 1)
@@ -4096,7 +4096,7 @@
 			(uuid "fe4ea5af-54a7-4b29-b6de-8302961184f3")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "J7")
 					(unit 1)
@@ -4164,7 +4164,7 @@
 			(uuid "051f3326-7a5d-4c0b-bd31-c49ba5d8e7f6")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "C40")
 					(unit 1)
@@ -4234,7 +4234,7 @@
 			(uuid "cda78c37-5b57-4f6e-81ab-456905760dc2")
 		)
 		(instances
-			(project "haldex_controller"
+			(project "grippyboi"
 				(path "/f9b060b2-b7a5-478e-9a0d-346ba4acb11f/96bb4d88-5f7d-436c-ad57-e0256ce9a962"
 					(reference "C37")
 					(unit 1)

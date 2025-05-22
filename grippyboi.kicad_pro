@@ -507,17 +507,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/MCU/SDMMC_CLK": "SDIO",
-      "/MCU/SDMMC_D0": "SDIO",
-      "/MCU/SDMMC_D1": "SDIO",
-      "/MCU/SDMMC_D2": "SDIO",
-      "/MCU/SDMMC_D3": "SDIO",
-      "/WiFi and Bluetooth/ANT_FEED": "WIFI_BT",
-      "Net-(C36-Pad2)": "WIFI_BT",
-      "Net-(C49-Pad2)": "WIFI_BT",
-      "Net-(J6-OUT)": "WIFI_BT"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
